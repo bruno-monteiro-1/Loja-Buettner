@@ -1,0 +1,36 @@
+.container--address__text--footer {
+  color: #363c4a;
+  font: 10px/0.875rem 'Open Sans Regular', sans-serif;
+  text-align: center;
+}
+
+.strong--address__text--footer {
+  font-family: 'Open Sans Bold', sans-serif;
+  font-weight: normal;
+}
+
+.paragraph--address__text--footer::first-line {
+  font-weight: bold;
+}
+.container--title-information__text-footer {
+  color: #363c4a;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1025px) {
+  .container--title-information__text-footer {
+    padding-left: 24px;
+  }
+
+  .container--address__text--footer {
+    color: #747a87;
+  }
+}
+
+.container--logos__brand--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

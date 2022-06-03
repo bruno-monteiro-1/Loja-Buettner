@@ -1,0 +1,44 @@
+{
+  "flex-layout.row#clients-comments": {
+    "title": "Comentários de Clientes",
+    "children": [
+      "rich-text#clients-comments__title",
+      "slider-layout#clients-comments__slider"
+    ],
+    "props": {
+      "blockClass": "comments-clients"
+    }
+  },
+
+  "rich-text#clients-comments__title": {
+    "title": "Título",
+    "props": {
+      "blockClass": ["comments-clients", "title"],
+      "text": "### O que os nossos clientes dizem"
+    }
+  },
+
+  "slider-layout#clients-comments__slider": {
+    "title": "Carrossel",
+    "children": [
+      "flex-layout.col#client-comments__card-1",
+      "flex-layout.col#client-comments__card-2",
+      "flex-layout.col#client-comments__card-3",
+      "flex-layout.col#client-comments__card-4",
+      "flex-layout.col#client-comments__card-5",
+      "flex-layout.col#client-comments__card-6"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider"],
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "never",
+      "fullWidth": false
+    }
+  }
+}

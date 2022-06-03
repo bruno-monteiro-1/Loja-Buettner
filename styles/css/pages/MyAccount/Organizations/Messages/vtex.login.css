@@ -1,0 +1,48 @@
+:global(.vtex-account) :global(.vtex-alert) {
+  border: 1px solid #d4d8e1;
+  border-radius: 12px;
+  padding: 36px 32px;
+  margin-bottom: 48px;
+}
+
+:global(.vtex-account) :global(.vtex-alert.bg-warning--faded) {
+  background: #fffcde;
+}
+
+:global(.vtex-account) :global(.vtex-alert.bg-danger--faded) {
+  background: #ffdddd;
+}
+
+:global(.vtex-account) :global(.vtex-alert) > div > div > div {
+  height: 64px;
+}
+
+:global(.vtex-account)
+  :global(.vtex-alert)
+  > div
+  > div
+  > :global(.c-warning)::before {
+  content: url('assets/icons/Alert.svg');
+}
+
+:global(.vtex-account)
+  :global(.vtex-alert)
+  > div
+  > div
+  > :global(.c-danger)::before {
+  content: url('assets/icons/Danger.svg');
+}
+
+:global(.vtex-account) :global(.vtex-alert) > div > div svg {
+  display: none;
+}
+
+:global(.vtex-account) :global(.vtex-alert) > div > div > div + div {
+  font: 18px/22px 'Open Sans Regular', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-account) :global(.vtex-alert) > div > div {
+  padding: 0;
+  align-items: center;
+}

@@ -1,0 +1,21 @@
+.flexRow--comments-clients :global(.vtex-store-components-3-x-container) {
+  padding: 0px;
+}
+
+.flexRow--comments-clients {
+  margin-top: 120px;
+}
+
+.flexRowContent--comments-clients {
+  flex-direction: column;
+}
+
+.flexRowContent--comments-clients
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+.flexColChild--comments-card:first-child {
+  min-height: 64px;
+  position: relative;
+}

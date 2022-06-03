@@ -1,0 +1,68 @@
+.paragraph--warning_massage,
+.paragraph--product-not-available__message {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.paragraph--product-not-available__message {
+  margin: 0;
+}
+
+.paragraph--product-not-available__message::before {
+  content: url('assets/icons/Arrow.svg');
+  height: 24px;
+  margin-right: 4px;
+}
+
+.link--warning_massage {
+  text-decoration: none;
+}
+
+.strong--warning_massage,
+.strong--product-not-available__message {
+  color: #ff3e3e;
+}
+
+.strong--warning_massage {
+  font-weight: inherit;
+  margin: 0 4px;
+}
+
+.strong--product-not-available__message {
+  display: inline-block;
+  margin-left: 4px;
+  font-weight: unset;
+}
+
+.wrapper--warning_massage,
+.wrapper--product-not-available__message {
+  padding-inline: 16px;
+}
+
+.container--product-not-available__message {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 780px) {
+  .wrapper--product-not-available__message,
+  .wrapper--warning_massage {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .paragraph--product-not-available__message,
+  .paragraph--warning_massage {
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 780px) {
+  .paragraph--warning_massage::before {
+    content: url('assets/icons/Arrow.svg');
+    height: 24px;
+    margin-right: 4px;
+  }
+}

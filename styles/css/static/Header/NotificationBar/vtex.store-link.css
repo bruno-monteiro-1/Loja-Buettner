@@ -1,0 +1,10 @@
+.link--notification-bar__content--item--link {
+  width: fit-content !important;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: flex-end;
+  color: #fff;
+  font: 0.875rem 'Open Sans Bold', sans-serif;
+}

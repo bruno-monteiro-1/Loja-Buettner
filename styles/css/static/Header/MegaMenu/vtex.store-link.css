@@ -1,0 +1,71 @@
+.link--mega-menu__children-link {
+  width: 100%;
+  text-decoration: none;
+  font: 16px 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1025px) {
+  .link--mega-menu__children-link {
+    padding-inline: 16px;
+    line-height: 96px;
+    font-family: 'Open Sans Bold', sans-serif;
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  .link--mega-menu__children-link:first-child {
+    order: 1;
+  }
+
+  .link--mega-menu__children-link::before {
+    content: '';
+    width: 100%;
+    height: 6px;
+    display: block;
+    background: var(--red);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 0.5s;
+  }
+
+  .link--mega-menu__children-link:hover::before {
+    opacity: 1;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--mega-menu__children-link)::before {
+    width: 205px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .link--mega-menu__children-link {
+    padding: 16px 16px 16px 24px;
+    margin: 0;
+  }
+
+  .link--mega-menu__children-link {
+    border-bottom: 1px solid #d4d8e1;
+  }
+
+  :global(.vtex__icon-caret-down),
+  :global(.vtex__icon-caret-up) {
+    height: 24px;
+    width: 24px;
+    background-image: url('assets/icons/Arrow.svg') !important;
+  }
+
+  :global(.vtex__icon-caret-up) {
+    transform: rotate(-90deg);
+  }
+
+  .link--mega-menu__children-link::after {
+    content: url('assets/icons/Arrow.svg');
+    height: 24px;
+    float: right;
+  }
+}

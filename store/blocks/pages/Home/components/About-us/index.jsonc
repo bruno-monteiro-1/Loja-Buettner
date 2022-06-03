@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#about-us": {
+    "title": "Sessão de Sobre Nós",
+    "children": [
+      "rich-text#about-us-title",
+      "rich-text#about-us-content",
+      "flex-layout.row#about-us-cta"
+    ],
+    "props": {
+      "blockClass": "about-us__container"
+    }
+  },
+  "rich-text#about-us-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "about-us__title",
+      "text": "## + de 120 anos de História…"
+    }
+  },
+  "rich-text#about-us-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "about-us__content",
+      "text": "Fundada em 1898 por imigrantes alemães, na cidade de Brusque, Santa Catarina, a Buettner sempre foi referência no setor de cama e banho, sendo reconhecida pela qualidade de seus produtos e atendimento aos clientes do mercado nacional e internacional. A exportação já representou 50% de sua produção, atendendo mais de 40 países, nos cinco continentes. O maior volume para exportação sempre foram os mercados dos Estados Unidos e Europa, ao mesmo tempo que se destaca no mercado interno com uma carteira de 7.800 clientes. A qualidade, diversificação e beleza de suas coleções estão entre os motivos de sucesso. Uma marca com muita tradição, respeitada pelos clientes e consumidores.\n\n Atualmente, a marca Buettner é licenciada exclusiva da Bouton, também sediada na cidade de Brusque, Santa Catarina que produz, importa e comercializa todas as coleções com a marca Buettner, no mercado interno e externo. \n\n A qualidade e beleza estão presentes nas coleções de toalhas em jacquard com barras diferenciadas, toalhas licenciadas de clubes de futebol e toalhas com maior valor agregado que recebem aplicações de rendas e bordados exclusivos, sempre combinando com os jogos de cama. O algodão egípcio e o fio penteado, destacam-se nos produtos. Todos 100% algodão. Os tamanhos e gramaturas diferenciadas enobrecem ainda mais as linhas. \n\n As coleções de jogos de cama se destacam pela alta qualidade dos tecidos nobres em percal 200 fios, 300 fios, até 1000 fios. Os jogos de lençol recebem aplicações de rendas, estampas diferenciadas e bordados exclusivos, combinando com o edredom, cobre leito, colchas e mantas. Para completar a decoração dos ambientes com requinte e elegância, a marca também possui uma linha de tapetes para quarto e banheiros. \n\n A marca Buettner por Bouton proporciona tudo isto e muito mais para a sua casa e o seu conforto."
+    }
+  },
+
+  "flex-layout.row#about-us-cta": {
+    "title": "Botões Principais",
+    "children": ["link#about-us-link", "link#about-us-link-2"],
+    "props": {
+      "blockClass": "about-us__link-cta"
+    }
+  },
+
+  "link#about-us-link": {
+    "title": "Link",
+    "props": {
+      "blockClass": "about-us__link",
+      "label": "CADASTRE SUA EMPRESA",
+      "href": "/login"
+    }
+  },
+  "link#about-us-link-2": {
+    "title": "Link",
+    "props": {
+      "blockClass": "about-us__link-secondary",
+      "label": "COMPRE PARA SUA CASA",
+      "href": "lojabuettner.com.br/",
+      "target": "_blank"
+    }
+  }
+}

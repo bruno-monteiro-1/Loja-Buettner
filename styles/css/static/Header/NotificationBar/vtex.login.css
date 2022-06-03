@@ -1,0 +1,5 @@
+:global(.vtex-store-components-3-x-notificationContent--notification-bar__content--item--phrase)
+  strong {
+  font-family: 'Open Sans Bold', sans-serif;
+  font-weight: normal;
+}

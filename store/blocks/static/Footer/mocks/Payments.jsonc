@@ -1,0 +1,98 @@
+{
+  "image#payments__children--1": {
+    "title": "Bandeira 1",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-1.svg"
+    }
+  },
+  "image#payments__children--2": {
+    "title": "Bandeira 2",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-2.svg"
+    }
+  },
+  "image#payments__children--3": {
+    "title": "Bandeira 3",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-3.svg"
+    }
+  },
+  "image#payments__children--4": {
+    "title": "Bandeira 4",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-4.svg"
+    }
+  },
+  "image#payments__children--5": {
+    "title": "Bandeira 5",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-5.svg"
+    }
+  },
+  "image#payments__children--6": {
+    "title": "Bandeira 6",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-6.svg"
+    }
+  },
+  "image#payments__children--7": {
+    "title": "Bandeira 7",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-7.svg"
+    }
+  },
+  "image#payments__children--8": {
+    "title": "Bandeira 8",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-8.svg"
+    }
+  },
+  "image#payments__children--9": {
+    "title": "Bandeira 9",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-9.svg"
+    }
+  },
+  "image#payments__children--10": {
+    "title": "Bandeira 10",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-10.svg"
+    }
+  },
+  "image#payments__children--11": {
+    "title": "Bandeira 11",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-11.svg"
+    }
+  },
+  "image#payments__children--12": {
+    "title": "Bandeira 12",
+    "props": {
+      "alt": "Bandeira de Pagamento",
+      "title": "Bandeira de Pagamento",
+      "src": "assets/icons/footer/formas de pagamento/PaymentForm-12.svg"
+    }
+  }
+}

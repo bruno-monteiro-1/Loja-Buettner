@@ -1,0 +1,73 @@
+.sliderLayoutContainer--main-carousel {
+  margin-bottom: 84px;
+}
+
+.paginationDotsContainer--main-carousel {
+  bottom: -26px;
+}
+
+.paginationDotsContainer,
+.paginationDotsContainer--main-carousel {
+  align-items: center;
+}
+
+.paginationDot {
+  min-width: 12px;
+  min-height: 12px;
+  background: none;
+  border: 1px solid #d4d8e1;
+}
+
+:global(.vtex-store-components-3-x-swiperBullet--active),
+.paginationDot--isActive {
+  position: relative;
+  max-height: 8px;
+  min-height: 8px;
+  max-width: 8px;
+  min-width: 8px;
+  border: none;
+  background: #363c4a;
+}
+
+:global(.vtex-store-components-3-x-swiperBullet--active)::before,
+.paginationDot--isActive::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  border: 1px solid #363c4a;
+}
+
+@media (max-width: 480px) {
+  :global(.vtex-store-components-3-x-imageElement--main-carousel) {
+    aspect-ratio: 1;
+    object-fit: cover;
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  :global(.vtex-store-components-3-x-imageElement--main-carousel) {
+    min-width: 1024px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .paginationDotsContainer {
+    bottom: -26px;
+  }
+
+  .sliderLayoutContainer--main-carousel {
+    margin-bottom: 42px;
+  }
+}
+
+@media (min-width: 1496px) {
+  :global(.vtex-store-components-3-x-imageElement--main-carousel) {
+    min-width: 1920px;
+  }
+}

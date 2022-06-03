@@ -1,0 +1,25 @@
+.flexRow--side-menu__container {
+  width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .flexRowContent--side-menu__container
+    :global(.vtex-disclosure-layout-1-x-trigger--disclosure-block__trigger) {
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1025px) {
+  .flexRowContent--side-menu__container,
+  .flexRowContent--mega-menu__intitucional-field {
+    flex-direction: column;
+  }
+
+  .flexRowContent--side-menu__container .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}

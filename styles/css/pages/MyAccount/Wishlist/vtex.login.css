@@ -1,0 +1,84 @@
+:global(.vtex-list-context-0-x-list) {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 32px;
+}
+
+:global(.vtex-list-context-0-x-item) {
+  height: fit-content;
+}
+
+:global(.vtex-list-context-0-x-item)
+  :global(.vtex-product-summary-2-x-element) {
+  position: relative;
+  height: fit-content;
+}
+
+:global(.vtex-list-context-0-x-item)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  z-index: 9;
+}
+
+:global(.vtex-list-context-0-x-item)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button) {
+  background: none;
+}
+
+:global(.vtex-list-context-0-x-item)
+  :global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist)
+  :global(.vtex-store-components-3-x-sellingPrice) {
+  font: 18px/22px 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist)
+  :global(.vtex-product-summary-2-x-priceContainer) {
+  padding: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist)
+  :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  font-size: 0;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist)
+  :global(.vtex-add-to-cart-button-0-x-buttonDataContainer)::before {
+  content: url('assets/icons/Minicart-Wishlist.svg');
+}
+
+@media (max-width: 440px) {
+  :global(.vtex-list-context-0-x-item) {
+    max-width: 100%;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--cta-container-wishlist)
+    :global(.vtex-button) {
+    width: 100%;
+    min-width: 200px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 980px) {
+  :global(.vtex-list-context-0-x-item) {
+    max-width: 48%;
+  }
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-list-context-0-x-item)
+    :global(.vtex-product-summary-2-x-productBrand) {
+    font: 18px/20px 'Open Sans SemiBold', sans-serif;
+  }
+}

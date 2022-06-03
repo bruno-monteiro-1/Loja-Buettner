@@ -1,0 +1,26 @@
+{
+  "store.custom#institutional": {
+    "path": "/institucional/sobre-nos"
+  },
+  "store.custom#about-us": {
+    "path": "/institucional/sobre-nos"
+  },
+  "store.custom#privacy": {
+    "path": "/institucional/politicas-de-privacidade"
+  },
+  "store.custom#swap": {
+    "path": "/institucional/trocas-e-devolucoes"
+  },
+  "store.custom#delivery": {
+    "path": "/institucional/entregas"
+  },
+  "store.custom#contact-us": {
+    "path": "/atendimento/contato"
+  },
+  "store.custom#faq": {
+    "path": "/atendimento/duvidas-frequentes"
+  },
+  "store.custom#how-buy": {
+    "path": "/como-comprar"
+  }
+}

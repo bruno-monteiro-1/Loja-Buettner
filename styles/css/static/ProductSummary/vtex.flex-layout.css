@@ -1,0 +1,15 @@
+.flexRow--product-not-available__container {
+  min-height: 47px;
+}
+
+:global(.vtex-storefront-permissions-ui-1-x-checkPermissionsBlock--conditional-container__product)
+  .flexRowContent--product-not-available__container {
+  position: absolute;
+  min-height: 47px;
+  height: 100%;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  background-color: hsla(0, 0%, 100%, 0.5);
+}

@@ -1,0 +1,8 @@
+.headerLinksContainer {
+  display: flex;
+  align-items: center;
+}
+
+.headerLinksContainer button {
+  max-width: 32px;
+}

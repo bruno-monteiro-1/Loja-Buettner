@@ -1,0 +1,41 @@
+.sealContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 70px;
+}
+
+.sealContainer h1 {
+  font: 1.5rem/2.063rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+  margin: 0;
+}
+
+.sealContainer img {
+  display: block;
+  margin: 40px 0 48px;
+}
+
+.sealContainer button {
+  height: 40px;
+  width: 248px;
+  background: #363c4a;
+  border-radius: 12px;
+  text-align: center;
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  color: #fff;
+  border: none;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sealContainer button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 640px) {
+  .sealContainer {
+    align-items: center;
+    margin-top: 64px;
+  }
+}

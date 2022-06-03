@@ -1,0 +1,120 @@
+.accountCardWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+}
+
+.accountCardWrapperDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.accountCardWrapperDetails h3 {
+  margin: 0;
+  font: 16px/22px 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+.accountCardWrapperDetails span {
+  font: 500 0.875rem/1.188rem 'Open Sans', sans-serif;
+  color: #747a87;
+}
+
+.accountCardWrapper input {
+  height: 40px;
+  width: 100%;
+  padding: 0 16px;
+  font: 500 0.875rem 'Open Sans', sans-serif;
+  color: #747a87;
+  border: 1px solid #d4d8e1;
+  border-radius: 12px;
+  margin-top: 16px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 980px) {
+  .accountCardWrapper:nth-child(3),
+  .accountCardWrapper .accountCardWrapperDetails span {
+    display: none;
+  }
+
+  .accountCardWrapper::before {
+    content: '';
+    display: block;
+    height: 6px;
+    width: 100%;
+    background: var(--red);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s all;
+    opacity: 0;
+  }
+
+  .accountCardWrapper:hover::before {
+    opacity: 1;
+  }
+
+  .cardDropdown::before {
+    display: none;
+  }
+
+  .cardDropdown .accountCardWrapperDetails {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cardDropdown h3 {
+    line-height: inherit !important;
+    font-weight: bold !important;
+  }
+
+  .cardDropdown span {
+    display: block !important;
+    color: #363c4a;
+    font-size: 0.75rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .accountCardWrapperDetails h3 {
+    font: 12px 'Open Sans Regular', sans-serif;
+    white-space: nowrap;
+    line-height: 96px;
+  }
+
+  .accountCardWrapperDetails {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1160px) {
+  .accountCardWrapper:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1325px) {
+  .accountCardWrapperDetails h3 {
+    display: none;
+  }
+}
+
+@media (max-width: 1025px) {
+  .accountCardWrapper {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .accountCardWrapper:nth-child(n + 2) {
+    margin-top: 24px;
+  }
+}

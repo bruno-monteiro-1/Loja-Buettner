@@ -1,0 +1,62 @@
+.container {
+  margin-top: 24px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.link .homeIcon {
+  display: none;
+}
+
+.container .link,
+.container .term,
+.homeLink::before {
+  font: 0.75rem/1rem 'Open Sans Regular', sans-serif;
+  color: #747a87;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.homeLink::before {
+  content: 'Home';
+  height: 22px;
+  display: inline;
+  color: inherit;
+}
+
+.container .arrow,
+.container .term {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0;
+}
+
+.container .arrow {
+  margin-left: 5px;
+  font-size: 0.75rem;
+}
+
+.container .arrow::before {
+  content: '|';
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.container .caretIcon {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .container {
+    height: 100%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .container {
+    padding: 0 16px;
+  }
+}

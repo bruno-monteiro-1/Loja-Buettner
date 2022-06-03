@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#account-field": {
+    "title": "Funcionalidades da Conta",
+    "children": ["account-field"]
+  },
+
+  "account-field": {
+    "children": [
+      "responsive-layout.desktop#account-field-wrapper",
+      "responsive-layout.mobile#account-field-wrapper"
+    ]
+  },
+
+  "responsive-layout.desktop#account-field-wrapper": {
+    "children": [
+      "challenge-block#account-card",
+      "overlay-trigger#whatsapp-card"
+    ]
+  },
+
+  "responsive-layout.tablet#account-field-wrapper": {
+    "children": [
+      "challenge-block#account-mobile",
+      "account-functionalities-card#2"
+    ]
+  },
+
+  "responsive-layout.mobile#account-field-wrapper": {
+    "children": [
+      "challenge-block#account-mobile",
+      "account-functionalities-card#2"
+    ]
+  }
+}

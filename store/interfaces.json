@@ -1,0 +1,48 @@
+{
+  "account-field": {
+    "component": "AccountField",
+    "composition": "children"
+  },
+  "account-functionalities-card": {
+    "component": "AccountFunctionalityCard",
+    "composition": "children"
+  },
+  "search-bar-container": {
+    "component": "SearchBar",
+    "composition": "children"
+  },
+  "overlay-custom": {
+    "component": "Overlay",
+    "composition": "children"
+  },
+  "header-custom-provider": {
+    "component": "HeaderCustomProvider",
+    "composition": "children"
+  },
+  "header-links-container": {
+    "component": "HeaderLinksContainer",
+    "composition": "children"
+  },
+  "logout-button": {
+    "component": "LogoutButton"
+  },
+  "product-flags": {
+    "component": "ProductFlags",
+    "composition": "children",
+    "render": "client"
+  },
+  "inmetro-seal": {
+    "component": "InmetroSeal",
+    "composition": "children",
+    "render": "client"
+  },
+  "side-menu-content-page": {
+    "component": "SideMenuContentPage",
+    "composition": "children"
+  },
+  "contact-form": {
+    "component": "ContactForm",
+    "composition": "children",
+    "render": "client"
+  }
+}

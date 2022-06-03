@@ -1,0 +1,58 @@
+{
+  "flex-layout.row#principal__row--footer": {
+    "title": "Principal",
+    "children": [
+      "flex-layout.row#informative__text--footer",
+      "flex-layout.col#institucional-stamps__col"
+    ],
+    "props": {
+      "blockClass": "principal__row--footer"
+    }
+  },
+
+  "flex-layout.col#institucional-stamps__col": {
+    "title": "Formas de Pagamento e Segurança",
+    "children": [
+      "flex-layout.col#payment-column__footer",
+      "flex-layout.col#security-column__footer"
+    ]
+  },
+
+  "flex-layout.col#payment-column__footer": {
+    "title": "Seção de Pagamentos",
+    "children": [
+      "rich-text#title-payment__text--footer",
+      "flex-layout.row#payments__row--footer"
+    ],
+    "props": {
+      "blockClass": ["footer-section__flags", "payments"]
+    }
+  },
+
+  "rich-text#title-payment__text--footer": {
+    "title": "Pagamento",
+    "props": {
+      "blockClass": "title-information__text-footer",
+      "text": "Pagamento"
+    }
+  },
+
+  "flex-layout.col#security-column__footer": {
+    "title": "Seção de Segurança",
+    "children": [
+      "rich-text#title-security__text--footer",
+      "flex-layout.row#stamps__row--footer"
+    ],
+    "props": {
+      "blockClass": ["footer-section__flags", "security"]
+    }
+  },
+
+  "rich-text#title-security__text--footer": {
+    "title": "Segurança",
+    "props": {
+      "blockClass": "title-information__text-footer",
+      "text": "Segurança"
+    }
+  }
+}

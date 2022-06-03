@@ -1,0 +1,49 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.contactFormFieldset {
+  display: flex;
+  align-items: top;
+  margin: 0;
+  padding: 0;
+  border: none;
+  gap: 32px;
+}
+
+.contactFormFieldset div {
+  width: 50%;
+}
+
+.contactFormFieldset div + div {
+  margin: 0 !important;
+}
+
+.messageInput {
+  min-height: 225px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 16px;
+}
+
+.submitButton {
+  background: #363c4a;
+  cursor: pointer;
+}
+.disabled {
+  pointer-events: none;
+}
+
+
+@media (max-width: 580px) {
+  .contactFormFieldset {
+    flex-direction: column;
+  }
+
+  .contactFormFieldset div {
+    width: 100%;
+  }
+}

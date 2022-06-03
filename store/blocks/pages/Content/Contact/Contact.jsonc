@@ -1,0 +1,48 @@
+{
+  "store.custom#contact-us": {
+    "blocks": ["breadcrumb", "flex-layout.row#main-container-contact-us"]
+  },
+  "flex-layout.row#main-container-contact-us": {
+    "title": "Container Principal",
+    "children": [
+      "rich-text#title-page-contact-us",
+      "side-menu-content-page#contact-us",
+      "flex-layout.row#content-container-contact-us"
+    ],
+    "props": {
+      "blockClass": "custom-page__main-container"
+    }
+  },
+
+  "rich-text#title-page-contact-us": {
+    "title": "Título da Página",
+    "props": {
+      "blockClass": "custom-page__title",
+      "text": "# Atendimento"
+    }
+  },
+
+  "side-menu-content-page#contact-us": {
+    "props": {
+      "pageContext": "Atendimento",
+      "active": "Contato"
+    }
+  },
+
+  "flex-layout.row#content-container-contact-us": {
+    "title": "Container de Conteúdo",
+    "children": ["rich-text#custom-title-container-contact-us", "contact-form"],
+    "props": {
+      "blockClass": "custom-page__content-container"
+    }
+  },
+
+  "rich-text#custom-title-container-contact-us": {
+    "title": "Título do Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--title",
+      "text": "## Fale Conosco"
+    }
+  },
+  "contact-form": {}
+}

@@ -1,0 +1,375 @@
+:global(.vtex-account) {
+  padding-inline: 16px;
+}
+
+:global(.vtex-account) > div {
+  max-width: 1464px !important;
+  padding-bottom: 160px;
+  column-gap: 32px;
+}
+
+:global(.vtex-account__page),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer),
+:global(.vtex-my-account-1-x-menu) + :global(.flex) {
+  width: 100%;
+  margin-left: auto;
+  max-width: 1168px;
+}
+
+:global(.vtex-account__page),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer),
+:global(.vtex-account) :global(.styleguide__layout) {
+  background: none;
+}
+
+:global(.vtex-my-account-1-x-userImage) svg {
+  display: none;
+}
+
+:global(.vtex-my-account-1-x-userImage)::before {
+  content: url('assets/icons/User.svg');
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+:global(.vtex-account_menu-link),
+:global(.vtex-my-account-1-x-menuLinks)
+  > :global(.vtex-my-account-1-x-menuLink) {
+  height: 32px;
+  border: none;
+  padding: 0;
+  margin: 24px 0 0;
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-account_menu-link.b--action-primary) {
+  color: #ff3e3e;
+}
+
+:global(.vtex-account_menu-link)::before,
+:global(.vtex-my-account-1-x-menuLinks)
+  > :global(.vtex-my-account-1-x-menuLink)::before {
+  margin-right: 16px;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(1) {
+  order: 1;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(1) a {
+  margin: 0;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(1) a::before {
+  content: url('assets/icons/User.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(1)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/User.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(2) {
+  order: 3;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(2) a::before {
+  content: url('assets/icons/Maps.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(2)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Maps.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(3) {
+  order: 4;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(3) a::before {
+  content: url('assets/icons/Document.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(3)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Document.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(4) {
+  order: 5;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(4) a::before {
+  content: url('assets/icons/Card.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(4)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Card.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(5) {
+  order: 6;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(5) a::before {
+  content: url('assets/icons/Key.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(5)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Key.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(6),
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(7) {
+  display: none;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(8) {
+  order: 2;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(8) a::before {
+  content: url('assets/icons/Organization.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(8)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Organization.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(9) {
+  order: 7;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(9) a {
+  font-size: 0px;
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(9) a::before {
+  content: url('assets/icons/BlackHeart.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks) > div > div:nth-child(9) a::after {
+  content: 'Lista de Desejos';
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > div
+  > div:nth-child(9)
+  :global(.vtex-account_menu-link.b--action-primary)::before {
+  content: url('assets/icons/active/Heart.svg');
+}
+
+:global(.vtex-my-account-1-x-menuLinks)
+  > :global(.vtex-my-account-1-x-menuLink)::before {
+  content: url('assets/icons/Logout.svg');
+}
+
+.vtex-my-account-1-x-newsletterBoxContainer > div,
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) > div,
+:global(.vtex-my-account-1-x-menu) {
+  padding: 0;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) > div,
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) > div span,
+:global(.vtex-pageHeader__children) a button,
+:global(.vtex-pageHeader__children) a button:hover {
+  color: #363c4a;
+}
+
+:global(.vtex-pageHeader-link__container) :global(.vtex-button) > div span {
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-pageHeader__children) {
+  display: flex;
+  align-items: end;
+}
+
+:global(.vtex-pageHeader__children) a button {
+  height: 40px;
+  border: none;
+  border-radius: 12px;
+}
+
+:global(.vtex-pageHeader__children) a button :global(.vtex-button__label) {
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+:global(.vtex-pageHeader__container) > div {
+  margin: 0;
+}
+
+:global(.mb8.vtex-my-account-1-x-dateOfBirthSubContainer),
+:global(.mb8.vtex-my-account-1-x-phoneNumberSubContainer) {
+  margin-bottom: 0px;
+}
+
+:global(.vtex-my-account-1-x-boxContainer),
+:global(.vtex-account) :global(.styleguide__box) {
+  border-radius: 24px;
+  background: #f2f2f2;
+  border-color: #d4d8e1;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody)
+  :global(.vtex-dropdown__label)
+  + div,
+:global(.vtex-account) :global(.vtex-input-prefix__group) {
+  height: fit-content;
+  border: none;
+  background: none;
+}
+
+:global(.vtex-account) input {
+  height: 48px;
+  border: 1px solid #d4d8e1;
+  border-radius: 12px;
+}
+
+:global(.vtex-account) :global(.vtex-input__label),
+:global(.vtex-account) :global(.vtex-dropdown__label) {
+  padding-left: 16px;
+  font: 0.875rem/1.188rem 'Open Sans Regular', sans-serif;
+}
+
+:global(.vtex-account) :global(.vtex-dropdown__button),
+:global(.vtex-profile-form-3-x-personalFields) :global(.vtex-dropdown__button) {
+  background: #d4d8e1;
+  color: #363c4a;
+}
+
+:global(.vtex-account) :global(.vtex-dropdown__button) {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+:global(.vtex-account) :global(.vtex-dropdown__button) > div {
+  width: 100%;
+}
+
+:global(.vtex-account) :global(.vtex-button) {
+  height: 40px;
+  width: fit-content;
+  background: #363c4a;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+}
+
+:global(.vtex-account) :global(.vtex-button.c-on-disabled) {
+  border: 1px solid #686f7b;
+  background: none;
+  color: #747a87;
+}
+
+:global(.vtex-account) :global(.vtex-button.hover-b--action-secondary) {
+  height: 24px;
+  padding-block: 0px;
+}
+
+:global(.vtex-account) :global(.vtex-dropdown__container) {
+  height: 48px;
+  background: none;
+}
+
+:global(.vtex-account) :global(.vtex-profile-form-3-x-styleguideInput),
+:global(.vtex-account) :global(.vtex-address-form__field--xlarge),
+:global(.vtex-account) :global(.vtex-address-form__field--small),
+:global(.vtex-account) :global(.vtex-address-form__field--large) {
+  padding-bottom: 32px;
+}
+
+:global(.vtex-account)
+  :global(.vtex-checkbox__inner-container.bg-action-primary)::before {
+  content: url('assets/icons/active/Checkbox.svg');
+}
+
+:global(.vtex-account) :global(.vtex__icon-check) {
+  display: none;
+}
+:global(.vtex-account)
+  :global(.vtex-checkbox__inner-container.b--action-primary) {
+  border: none;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-account) > div {
+    padding-top: 32px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 700px) {
+  :global(.vtex-account__page) header :global(.db.dn-m) {
+    display: block;
+  }
+
+  :global(.vtex-account__page)
+    header
+    :global(.db.dn-m)
+    :global(.vtex-pageHeader__title) {
+    display: none;
+  }
+
+  :global(.vtex-account__page)
+    header
+    :global(.db.dn-m)
+    :global(.vtex-pageHeader__container) {
+    padding: 0;
+    border: none;
+  }
+}
+
+@media (max-width: 767px) {
+  :global(.vtex-pageHeader__title) {
+    font: 1.625rem/2.688rem 'Open Sans Bold', sans-serif;
+  }
+
+  :global(.vtex-my-account-1-x-newsletterBoxContainer) > div {
+    padding: 0;
+  }
+}
+
+@media (max-width: 980px) {
+  :global(.vtex-my-account-1-x-profile) > div > div {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-account__page),
+  :global(.vtex-b2b-organizations-1-x-newOrganizationContainer) {
+    width: 100%;
+  }
+}

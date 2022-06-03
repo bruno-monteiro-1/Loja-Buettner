@@ -1,0 +1,37 @@
+.flexRow--fallback-container-product {
+  width: 95%;
+  max-width: 1030px;
+  margin: 112px auto;
+}
+
+.flexRowContent--fallback-container-product {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--fallback-container-product
+  :global(.vtex-store-link-0-x-link--fallback-container-product) {
+  height: 48px;
+  width: 100%;
+  max-width: 428px;
+  color: #fff;
+  background-color: #ff3e3e;
+  border-radius: 12px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.flexRowContent--fallback-container-product
+  :global(.vtex-store-link-0-x-label) {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+@media (max-width: 1025px) {
+  .flexRow--fallback-container-product {
+    margin: 64px auto;
+  }
+}

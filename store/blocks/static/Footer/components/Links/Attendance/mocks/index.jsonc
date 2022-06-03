@@ -1,0 +1,36 @@
+{
+  "rich-text#text-attendance-title": {
+    "title": "Atendimento",
+    "props": {
+      "blockClass": "title-information__text-footer",
+      "text": "Central de Atendimento"
+    }
+  },
+
+  "link#link-attendance1": {
+    "title": "Link 1",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Fale Conosco",
+      "href": "/atendimento/contato"
+    }
+  },
+
+  "link#link-attendance2": {
+    "title": "Link 2",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Dúvidas Frequentes",
+      "href": "/atendimento/duvidas-frequentes"
+    }
+  },
+
+  "link#link-attendance3": {
+    "title": "Link 3",
+    "props": {
+      "blockClass": ["information__link-footer", "secondary"],
+      "label": "Como Comprar",
+      "href": "/como-comprar"
+    }
+  }
+}

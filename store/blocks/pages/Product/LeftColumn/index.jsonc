@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#product-container-left": {
+    "title": "Container da Esquerda",
+    "props": {
+      "blockClass": "left-container",
+      "width": "60%"
+    },
+    "children": ["product-images"]
+  },
+
+  "product-images": {
+    "title": "Imagem do Produto",
+    "props": {
+      "hiddenImages": "800",
+      "aspectRatio": {
+        "desktop": "1:1",
+        "phone": "auto"
+      },
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "vertical",
+      "thumbnailMaxHeight": 150
+    }
+  }
+}

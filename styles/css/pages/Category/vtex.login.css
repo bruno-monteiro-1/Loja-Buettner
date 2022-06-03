@@ -1,0 +1,91 @@
+:global(.vtex-search-result-3-x-searchResultContainer) > div {
+  padding: 0px;
+}
+
+:global(.vtex-search-result-3-x-filterItem)
+  + :global(.vtex-search-result-3-x-filterItem) {
+  margin-top: 6px;
+}
+
+:global(.vtex-checkbox__inner-container.b--action-primary) {
+  border: 1px solid #ff3e3e;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) a {
+  border: none;
+  width: 80%;
+  justify-content: center;
+  max-width: 428px;
+  border-radius: 12px;
+  height: 48px;
+  font: 1.125rem/1.5rem 'Open Sans Bold', sans-serif;
+}
+
+:global(.vtex-search-result-3-x-buttonShowMore) a,
+:global(.vtex-search-result-3-x-buttonShowMore) a:hover {
+  background: #ff3e3e;
+}
+
+:global(.vtex-search-result-3-x-container--layout)
+  :global(.vtex-flex-layout-0-x-flexColChild):nth-child(2)
+  :global(.vtex-search-result-3-x-buttonShowMore)
+  a {
+  margin-bottom: 112px;
+}
+
+:global(.vtex-search-result-3-x-container--layout)
+  :global(.vtex-flex-layout-0-x-flexColChild):nth-child(4)
+  :global(.vtex-search-result-3-x-buttonShowMore)
+  a {
+  margin-top: 112px;
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-checkbox__box) :global(.vtex__icon-check) {
+    display: none;
+  }
+
+  :global(.b--action-primary)
+    + div
+    :global(.vtex-checkbox__box.c-on-action-primary) {
+    background: #ff3e3e;
+    width: 12px;
+    height: 12px;
+    margin: 2px;
+    border-radius: 3px;
+  }
+
+  :global(.vtex-search-result-3-x-container--layout)
+    :global(.vtex-flex-layout-0-x-flexColChild):nth-child(2)
+    :global(.vtex-search-result-3-x-buttonShowMore)
+    a {
+    margin-bottom: 64px;
+  }
+
+  :global(.vtex-search-result-3-x-container--layout)
+    :global(.vtex-flex-layout-0-x-flexColChild):nth-child(4)
+    :global(.vtex-search-result-3-x-buttonShowMore)
+    a {
+    margin-bottom: 64px;
+  }
+
+  :global(.vtex-search-result-3-x-accordionFilterItemOptions.ph5),
+  .ReactCollapse--collapse .pl8 {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--filters-container)
+    :global(.vtex-flex-layout-0-x-stretchChildrenWidth):nth-child(2) {
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-filterTemplateOverflow) > div {
+    overflow: unset !important;
+  }
+
+  :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+    min-height: 200px;
+  }
+}

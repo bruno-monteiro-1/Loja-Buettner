@@ -1,0 +1,12 @@
+{
+  "search-bar-container": {
+    "children": ["search-bar"]
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "O que você procura?",
+      "openAutocompleteOnFocus": true
+    }
+  }
+}

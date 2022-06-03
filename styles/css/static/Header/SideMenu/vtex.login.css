@@ -1,0 +1,46 @@
+@media (max-width: 1025px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger--disclosure-block__trigger),
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-auth-challenge-1-x-challengeContentWrapper)
+    + a {
+    padding-inline: 16px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger)
+    + div {
+    border-bottom: 1px solid #d4d8e1;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger)
+    + div,
+  :global(.vtex-mega-menu-2-x-submenuContainerVertical--mega-menu) {
+    background: #f2f2f2;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger)
+    + div
+    > div {
+    gap: 24px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger)
+    + div
+    a
+    span {
+    color: #363c4a;
+    font-weight: unset;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--side-menu__container)
+    :global(.vtex-disclosure-layout-1-x-trigger)
+    + div
+    > div
+    div:last-child {
+    font: 0.875rem/1.75rem 'Open Sans Regular', sans-serif;
+  }
+}

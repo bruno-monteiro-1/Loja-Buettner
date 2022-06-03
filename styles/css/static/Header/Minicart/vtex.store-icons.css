@@ -1,0 +1,13 @@
+:global(.vtex-minicart-2-x-minicartEmptyStateContainer)
+  :global(.vtex-flex-layout-0-x-flexColChild) {
+  width: fit-content;
+  padding: 0;
+}
+
+:global(.vtex-store-icons-0-x-cartIcon--minicart-empty-state) {
+  width: 34px;
+  overflow: inherit !important;
+  color: #fe5555;
+  margin: 0px 0px 8px -20px;
+  display: inline-block;
+}

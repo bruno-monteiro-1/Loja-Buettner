@@ -1,0 +1,69 @@
+.flexRow--custom-page__how-buy {
+  padding-inline: 16px;
+}
+
+.flexRow--custom-page__how-buy :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--custom-page__how-buy,
+.flexRowContent--how-buy-content,
+.flexRowContent--how-buy-content__container {
+  flex-direction: column;
+}
+
+.flexRowContent--custom-page__how-buy .stretchChildrenWidth {
+  width: 100% !important;
+  margin: 0 auto;
+}
+
+.flexRow--how-buy-content {
+  max-width: 1168px;
+  border: 1px solid #d4d8e1;
+  background: #f2f2f2;
+  border-radius: 24px;
+  padding: 80px 32px 120px;
+}
+
+.flexRowContent--how-buy-content__container {
+  max-width: 928px;
+  padding-bottom: 90px;
+  margin: 0 auto 90px;
+  border-bottom: 1px solid #d4d8e1;
+  position: relative;
+}
+
+.flexRowContent--how-buy-content__container::after {
+  content: url('assets/icons/ArrowSection.svg');
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--help-section__container {
+  margin-top: 80px;
+}
+
+.flexRowContent--help-section__container {
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.flexRowContent--help-section__social-field {
+  margin-top: 40px;
+  display: flex;
+  gap: 40px;
+}
+
+@media (max-width: 680px) {
+  .flexRow--how-buy-content {
+    padding: 64px 32px 80px;
+  }
+}

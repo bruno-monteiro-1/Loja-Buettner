@@ -1,0 +1,65 @@
+.label--information__link-footer {
+  color: #363c4a;
+  font: 0.875rem/1.75rem 'Open Sans Regular', sans-serif;
+  transition: all 0.5s;
+}
+
+.label--information__link-footer:hover {
+  filter: opacity(0.6);
+}
+
+.link--information__link-footer.link--secondary {
+  width: fit-content;
+  padding-inline: 16px;
+  margin-top: 24px;
+  background: #d4d8e1;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.label--information__link-footer.label--secondary {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-store-link-0-x-link--information__link-footer) {
+  height: min-content;
+  display: block;
+  text-decoration: none;
+}
+
+@media (max-width: 1025px) {
+  .label--information__link-footer::before {
+    content: url('assets/icons/footer/seta/Seta.svg');
+    display: flex;
+    height: 16px;
+    margin-right: 8px;
+  }
+
+  .link--information__link-footer.link--secondary {
+    margin: 0 0 0 24px;
+  }
+
+  .label--information__link-footer.label--secondary::before {
+    display: none;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--institucional__text--footer):nth-child(n
+      + 2),
+  :global(.vtex-flex-layout-0-x-flexColChild--calls__text--footer):nth-child(n
+      + 2) {
+    margin-bottom: 16px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexColChild--institucional__text--footer):last-child,
+  :global(.vtex-flex-layout-0-x-flexColChild--calls__text--footer):last-child {
+    margin: 0;
+  }
+
+  .label--information__link-footer {
+    color: #747a87;
+    font-size: 14px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+}

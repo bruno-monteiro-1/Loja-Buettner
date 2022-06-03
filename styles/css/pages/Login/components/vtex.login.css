@@ -1,0 +1,193 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--container-page-login)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: 100% !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-login)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  width: 100% !important;
+  max-width: 428px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--container-login)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child {
+  width: 100% !important;
+  max-width: 969px;
+  justify-content: center;
+  display: flex;
+}
+
+.optionsList {
+  margin-bottom: 48px;
+}
+
+.loginOptionsContainer {
+  width: 100%;
+}
+
+.formTitle {
+  color: #363c4a;
+  margin-top: 0;
+  padding: 0;
+}
+
+.contentForm .formTitle {
+  font-size: 0;
+}
+
+.content--emailAndPassword .contentForm .formTitle::before,
+.content--emailVerification .contentForm .formTitle::before,
+.content--codeConfirmation .contentForm .formTitle::before {
+  font: 18px/28px 'Open Sans Regular', sans-serif;
+  text-align: left;
+  margin-bottom: 16px;
+  display: none;
+}
+
+.content--emailAndPassword .contentForm .formTitle::before {
+  content: 'Entre com seu email e senha para comprar e ter acesso aos seu painel.';
+}
+
+.content--emailVerification .contentForm .formTitle::before {
+  content: 'Informe o email cadastrado abaixo para receber seu código de acesso.';
+}
+
+.content--codeConfirmation .contentForm .formTitle::before {
+  content: 'Para fazer o login informe o código que enviamos no seu email.';
+}
+
+.sendButton :global(.vtex-button) {
+  min-height: 2.5rem;
+  width: 100%;
+  border: none;
+  color: #fff;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+  height: 48px;
+  border-radius: 12px;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) {
+  background: #363c4a;
+}
+
+.sendButton :global(.vtex-button):hover,
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background: #ff3e3e !important;
+}
+
+.accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label),
+.emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label) {
+  font: 1.125rem/1.5rem 'Open Sans Bold', sans-serif;
+  color: #fff;
+}
+
+.inputContainerAccessCode + .formFooter {
+  flex-direction: column-reverse;
+}
+
+.sendButton {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.backButton :global(.vtex-button) {
+  min-height: 20px;
+  margin-top: 16px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--login-first-access)
+  .loginOptionsContainer {
+  display: none;
+}
+
+.backButton .arrowBackIcon {
+  display: none;
+}
+
+.backButton span {
+  margin: 0;
+  color: #ff3e3e;
+  font: italic 0.875rem/1.188rem 'Open Sans', sans-serif;
+  padding: 0;
+}
+
+.contentAlwaysWithOptions {
+  min-height: min-content;
+  flex-direction: column-reverse;
+  padding: 0px;
+  background: none;
+}
+
+.contentForm .formTitl {
+  display: none !important;
+}
+
+.contentForm .formTitle {
+  display: none;
+}
+
+.content--emailAndPassword {
+  max-width: 100%;
+}
+
+.contentForm {
+  width: 100%;
+  padding: 0px;
+}
+
+.options {
+  min-width: none !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--login-first-access) .formFooter {
+  margin: 0 !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--login-first-access) .contentForm {
+  padding-bottom: 60px;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--login-first-access):nth-child(2) {
+  max-width: 428px;
+  width: 100%;
+}
+
+.formTitle::before {
+  content: '';
+  height: 2px;
+  width: calc(50% - 30px);
+  background: #d4d8e1;
+  display: inline-block;
+}
+
+.formTitle::after {
+  content: '';
+  height: 2px;
+  width: calc(50% - 30px);
+  background: #d4d8e1;
+  display: inline-block;
+}
+
+.formTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.formLinkContainer {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--login-first-access):nth-child(3) {
+  max-width: 729px;
+  width: 100%;
+}
+
+@media (max-width: 780px) {
+  :global(.vtex-flex-layout-0-x-flexColChild--login-first-access) .contentForm {
+    padding-bottom: 32px;
+  }
+}

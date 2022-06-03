@@ -1,0 +1,9 @@
+{
+  "flex-layout.row#logos__brand--footer": {
+    "title": "Logos Vtex e Modular",
+    "props": {
+      "blockClass": "logos__brand--footer"
+    },
+    "children": ["image#logo__children--1", "image#logo__children--2"]
+  }
+}

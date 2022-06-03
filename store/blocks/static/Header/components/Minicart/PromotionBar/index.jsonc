@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#promotion-bar": {
+    "title": "Barra Promocional - Minicart",
+    "children": ["rich-text#promotion-bar-content"],
+    "props": {
+      "blockClass": "promotion-bar__container"
+    }
+  },
+  "rich-text#promotion-bar-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "promotion-bar__content",
+      "text": ""
+    }
+  }
+}

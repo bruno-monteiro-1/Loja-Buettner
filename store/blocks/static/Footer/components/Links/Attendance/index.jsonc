@@ -1,0 +1,14 @@
+{
+  "flex-layout.col#calls__text--footer": {
+    "title": "Links Atendimento",
+    "props": {
+      "blockClass": ["calls__text--footer", "attendence"]
+    },
+    "children": [
+      "rich-text#text-attendance-title",
+      "link#link-attendance1",
+      "link#link-attendance2",
+      "link#link-attendance3"
+    ]
+  }
+}

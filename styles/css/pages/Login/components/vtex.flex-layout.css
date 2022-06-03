@@ -1,0 +1,100 @@
+.flexRow--container-login .flexRow--authentication-session {
+  background:none;
+}
+
+.flexRow--container-login .flexRow--newsletter-container {
+  margin-bottom: 112px;
+}
+
+.flexRowContent--container-login {
+  flex-direction: row;
+  column-gap: 67px;
+  padding-bottom: 160px;
+}
+
+  @media (max-width: 804px) {
+  .flexRowContent--container-login {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 1464px) {
+  .flexRow--container-login {
+    padding: 16px;
+  }
+}
+
+.flexCol--login-first-access {
+  display: flex;
+  background-color: #F2F2F2;
+  border-radius: 24px;
+  border: solid 1px #D4D8E1;;
+  padding: 32px 32px 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCol--login-email-password {
+  display: flex;
+  max-width: 428px;
+  margin-right: auto;
+  flex-direction: column-reverse;
+  height: min-content;
+  justify-content: flex-start;
+}
+
+
+.flexRowContent--container-page-login {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container--container-page-login {
+  width: 100%;
+}
+
+
+
+.stretchChildrenWidth {
+  justify-content: center;
+}
+
+.flexColChild .flexColChild--login-email-password {
+  height: min-content;
+}
+
+
+
+.flexColChild .flexColChild--login-first-access {
+  justify-content: center !important;
+  display: flex;
+  background: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRow--container-page-login :global(.vtex-store-components-3-x-container) {
+
+  padding: 0;
+}
+
+@media (min-width: 999px) {
+  .flexRowContent--button-links {
+    justify-content: space-between;
+    display: flex;
+    column-gap: 40px;
+  }
+}
+@media (max-width: 999px) {
+  .flexRowContent--button-links {
+    justify-content: space-between;
+    display: flex;
+    column-gap: 15px;
+  }
+}
+

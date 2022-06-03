@@ -1,0 +1,42 @@
+{
+  "image#stamps__children--1": {
+    "title": "Selo 1",
+    "props": {
+      "title": "Selo de Segurança",
+      "alt": "Selo de Segurança",
+      "src": "assets/icons/footer/Stamps/Encrypt.svg"
+    }
+  },
+  "image#stamps__children--2": {
+    "title": "Selo 2",
+    "props": {
+      "title": "Selo de Segurança",
+      "alt": "Selo de Segurança",
+      "src": "assets/icons/footer/Stamps/LojaConfiavel.svg"
+    }
+  },
+  "image#stamps__children--3": {
+    "title": "Selo 3",
+    "props": {
+      "title": "Selo de Segurança",
+      "alt": "Selo de Segurança",
+      "src": "assets/icons/footer/Stamps/Ebit.svg"
+    }
+  },
+  "image#stamps__children--4": {
+    "title": "Selo 4",
+    "props": {
+      "title": "Selo de Segurança",
+      "alt": "Selo de Segurança",
+      "src": "assets/icons/footer/Stamps/Abdcoom.svg"
+    }
+  },
+  "image#stamps__children--5": {
+    "title": "Selo 5",
+    "props": {
+      "title": "Selo de Segurança",
+      "alt": "Selo de Segurança",
+      "src": "assets/icons/footer/Stamps/GloogleReview.svg"
+    }
+  }
+}

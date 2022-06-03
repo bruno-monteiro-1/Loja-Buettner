@@ -1,0 +1,57 @@
+.container--departaments-wrapper__title,
+.container--departaments-container__title {
+  justify-content: center;
+}
+
+.paragraph--departaments-wrapper__title {
+  font: 2.5rem/3.438rem 'Open Sans ExtraBold', sans-serif;
+  color: #363c4a;
+  margin: 0;
+}
+
+:global(.vtex-store-link-0-x-link--departaments-container__cta) {
+  height: 48px;
+  border: 1px solid #686f7b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 240px;
+  border-radius: 12px;
+  transition: 0.5s all;
+  text-decoration: none;
+}
+
+:global(.vtex-store-link-0-x-link--departaments-container__cta):hover {
+  background: #686f7b;
+}
+
+:global(.vtex-store-link-0-x-label--departaments-container__cta) {
+  font: 1.125rem/1.5rem 'Open Sans Bold', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-store-link-0-x-link--departaments-container__cta):hover
+  :global(.vtex-store-link-0-x-label--departaments-container__cta) {
+  color: #fff;
+}
+
+.paragraph--departaments-container__title {
+  font: 2rem/2.688rem 'Open Sans SemiBold', sans-serif;
+  text-align: center;
+  color: #363c4a;
+  margin-block: 32px;
+}
+
+@media (max-width: 780px) {
+  .paragraph--departaments-wrapper__title {
+    font-size: 1.625rem;
+    text-align: center;
+    line-height: 2.625rem;
+  }
+
+  .paragraph--departaments-container__title {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    margin-block: 24px;
+  }
+}

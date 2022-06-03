@@ -1,0 +1,26 @@
+.link--continue-buy__button,
+.link--continue-buy__button:hover {
+  background-color: transparent;
+  color: #747a87;
+  text-decoration: underline;
+}
+
+.link--continue-buy__button {
+  min-height: 24px;
+  border-radius: 12px;
+  font: 14px/22px 'Open Sans SemiBold', sans-serif;
+  border: none;
+  text-transform: initial;
+}
+
+.label--continue-buy__button {
+  display: flex;
+  justify-content: center;
+}
+
+.label--continue-buy__button::before {
+  height: 24px;
+  content: url('assets/icons/Arrow.svg');
+  opacity: .7;
+  transform: scaleX(-1) scale(.8);
+}

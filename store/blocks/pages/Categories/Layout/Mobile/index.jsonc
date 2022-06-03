@@ -1,0 +1,74 @@
+{
+  "flex-layout.row#contentmobile": {
+    "children": ["search-content"],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.row#searchinfomobile": {
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#switcherMobile"
+    ],
+    "props": {
+      "blockClass": "filterAndGrid",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "colJustify": "around"
+    }
+  },
+
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+
+  "flex-layout.row#productCountMobile": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "productCountMobileRow"
+    }
+  },
+
+  "flex-layout.col#filterMobile": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+
+  "filter-navigator.v3#desktop": {
+    "blocks": ["sidebar-close-button"],
+    "props": {
+      "showClearByFilter": true,
+      "showClearAllFiltersOnDesktop": true,
+      "initiallyCollapsed": false,
+      "closeOnOutsideClick": false
+    }
+  },
+
+  "filter-navigator.v3#mobile": {
+    "blocks": ["sidebar-close-button"],
+    "props": {
+      "truncateFilters": true,
+      "fullWidthOnMobile": true,
+      "showClearByFilter": true,
+      "initiallyCollapsed": true,
+      "navigationTypeOnMobile": "collapsible",
+      "updateOnFilterSelectionOnMobile": true,
+      "showClearAllFiltersOnDesktop": true,
+      "appliedFiltersOverview": "show"
+    }
+  },
+
+  "flex-layout.col#switcherMobile": {
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  }
+}

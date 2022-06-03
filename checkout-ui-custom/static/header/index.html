@@ -1,0 +1,102 @@
+<header>
+  <div class="header-alert">
+    <span>
+      <strong>FRETE GRÁTIS</strong>
+      TODO O BRASIL ACIMA DE R$499,00
+    </span>
+  </div>
+
+  <div class="header-content">
+    <div class="brand">
+      <a href="/">
+        <img
+          src="https://lojabuettner.vtexassets.com/assets/vtex.file-manager-graphql/images/fc014ae4-dab4-47e9-a8d9-9aaec604247a___df5cb05d2aa523f4e1001f93b974346f.png"
+          alt="Loja Buettner"
+        />
+      </a>
+    </div>
+
+    <div class="security-ambient">
+      <i>
+        <img
+          src="https://lojabuettner.vtexassets.com/arquivos/lock-icon.png"
+          alt="lock-icon"
+        />
+      </i>
+      <span> Ambiente 100% Seguro </span>
+    </div>
+  </div>
+</header>
+
+<div class="promotional__banner-container">
+  <div class="promotional__banner-desktop">
+    <img
+      src="//lojabuettner.vteximg.com.br/arquivos/buettner-carrinho-banner-d-boxing-week-2021-01.png"
+      alt="Banner Promocional Desktop"
+      title="Banner Promocional"
+    />
+  </div>
+
+  <div class="promotional__banner-mobile">
+    <img
+      src="//lojabuettner.vteximg.com.br/arquivos/buettner-carrinho-banner-m-boxing-week-2021-01.png"
+      alt="Banner Promocional Mobile"
+      title="Banner Promocional"
+    />
+  </div>
+</div>
+
+<h1
+  class="hide"
+  id="cart-title"
+  data-bind="fadeVisible: inCart() &amp;&amp; !sac.isActive()"
+  style="display: block"
+>
+  Sacola
+</h1>
+
+<div class="coupons-wrapper">
+  <div class="coupons-content-wrapper">
+    <div class="content-wrapper-header">
+      <h1>Aproveite seus Cupons!</h1>
+      <small>
+        Escolha o melhor Cupom para você e digite o código logo abaixo, na
+        sessão Cupom Desconto.
+      </small>
+    </div>
+
+    <div class="content-wrapper-body"></div>
+
+    <em> * Cupons válidos nas compras acima de R$300,00 </em>
+  </div>
+
+  <overlay>
+    <div class="coupons-modal-wrapper">
+      <div class="modal-wrapper-description">
+        <h1>É Cupom que você quer?</h1>
+        <span>
+          Preencha seu email abaixo e revele todos os Cupons. Use aquele que
+          você quiser!
+        </span>
+
+        <em> * Válido nas compras acima de R$300 </em>
+      </div>
+
+      <form class="modal-wrapper-form" name="formCupons">
+        <input
+          type="email"
+          placeholder="exemplo@email.com"
+          class="form-control"
+          required="required"
+          name="email"
+        />
+
+        <button type="submit" onclick="handleSubmittedFormCupom()">
+          Revele Seus Cupons
+        </button>
+
+        <span class="message-wrapper"></span>
+      </form>
+    </div>
+  </overlay>
+</div>

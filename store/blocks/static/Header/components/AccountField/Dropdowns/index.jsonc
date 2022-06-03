@@ -1,0 +1,76 @@
+{
+  // WhatsApp
+
+  "overlay-trigger#whatsapp-card": {
+    "children": ["account-functionalities-card#2", "overlay-layout#whatsapp"],
+    "props": {
+      "blockClass": "overlay-trigger"
+    }
+  },
+
+  "overlay-layout#whatsapp": {
+    "props": {
+      "placement": "bottom",
+      "scrollBehavior": "close-on-scroll",
+      "backdrop": "visible"
+    },
+    "children": ["flex-layout.col#overlay-container-whatsapp"]
+  },
+
+  "flex-layout.col#overlay-container-whatsapp": {
+    "children": [
+      "account-functionalities-card#attendence-whatsapp",
+      "account-functionalities-card#common-questions",
+      "account-functionalities-card#send-email"
+    ],
+    "props": {
+      "blockClass": "overlay-container"
+    }
+  },
+
+  // Menu Account
+
+  "challenge-block#account-card": {
+    "blocks": [
+      "challenge-content#account-card",
+      "challenge-fallback#account-card"
+    ]
+  },
+
+  "challenge-content#account-card": {
+    "children": ["overlay-trigger#account-card"]
+  },
+
+  "challenge-fallback#account-card": {
+    "children": ["account-functionalities-card#1"]
+  },
+
+  "overlay-trigger#account-card": {
+    "children": ["account-functionalities-card#1", "overlay-layout#account"],
+    "props": {
+      "blockClass": "overlay-trigger"
+    }
+  },
+
+  "overlay-layout#account": {
+    "props": {
+      "placement": "bottom",
+      "scrollBehavior": "close-on-scroll",
+      "backdrop": "visible"
+    },
+    "children": ["flex-layout.col#overlay-container-account"]
+  },
+
+  "flex-layout.col#overlay-container-account": {
+    "children": [
+      "account-functionalities-card#profile",
+      "account-functionalities-card#organization",
+      "account-functionalities-card#orders",
+      "account-functionalities-card#wishlist",
+      "logout-button"
+    ],
+    "props": {
+      "blockClass": ["overlay-container", "my-account"]
+    }
+  }
+}

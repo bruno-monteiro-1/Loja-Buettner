@@ -1,0 +1,39 @@
+{
+  "header-row#mainRowHeaderDesktop": {
+    "title": "Container Principal",
+    "children": [
+      "image#brandImage",
+      "flex-layout.row#side-menu__children-links",
+      "flex-layout.row#account-field",
+      "flex-layout.row#minicart"
+    ],
+    "props": {
+      "blockClass": "header__main-container"
+    }
+  },
+
+  "header-row#mainRowHeaderMobile": {
+    "title": "Container Principal",
+    "children": [
+      "drawer#side-menu",
+      "image#brandImage",
+      "flex-layout.row#minicart",
+      "search-bar-container"
+    ],
+    "props": {
+      "blockClass": "header__main-container"
+    }
+  },
+
+  "image#brandImage": {
+    "title": "Logo",
+    "props": {
+      "src": "assets/images/Logo.svg",
+      "link": {
+        "url": "/"
+      },
+      "title": "Logo - Buettner",
+      "alt": "Logo -Buettner"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--product-container__buttons)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child {
+  max-width: fit-content;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--shipping-simulator__container) a {
+  padding-left: 16px;
+  text-decoration: underline;
+  font-family: 'Open Sans Italic', sans-serif;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--shipping-simulator__container) a,
+:global(.vtex-flex-layout-0-x-flexRow--shipping-simulator__container) a:hover {
+  color: #747a87;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-container__cta)
+  :global(.vtex-button.bg-disabled) {
+  background: #d4d8e1;
+  color: #fff;
+  margin: 0;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice--isUnavailable) {
+  position: relative;
+}
+
+:global(.vtex-product-price-1-x-sellingPrice--isUnavailable)::after {
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 30px;
+  background: #ff4949;
+  width: 140px;
+  height: 3px;
+  transform: rotate(15deg);
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--shipping-simulator__container)
+  :global(.vtex-button__label):before {
+  content: 'OK';
+  font: 22px/20px 'Ubuntu', sans-serif;
+  color: #fff;
+}

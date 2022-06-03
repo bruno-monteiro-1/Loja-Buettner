@@ -1,0 +1,83 @@
+{
+  "flex-layout.row#product-page-anonymous-fallback": {
+    "title": "Mensagem para Usuário Anônimo",
+    "children": ["rich-text#anonymous-fallback-text", "link#anonymous-button"],
+    "props": {
+      "blockClass": "fallback-container-product"
+    }
+  },
+
+  "rich-text#anonymous-fallback-text": {
+    "title": "Mensagem",
+    "props": {
+      "blockClass": ["fallback-container-product", "content"],
+      "text": "Você precisa estar conectado para acessar está página",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "link#anonymous-button": {
+    "title": "Botão de Redirecionamento",
+    "props": {
+      "blockClass": ["fallback-container-product", "button"],
+      "label": "Página de Login",
+      "href": "/login"
+    }
+  },
+
+  "flex-layout.row#product-page-no-permission ": {
+    "title": "Mensagem para Usuário Sem Permissão",
+    "children": ["rich-text#no-permission-fallback-text"],
+    "props": {
+      "blockClass": "fallback-container-product"
+    }
+  },
+
+  "rich-text#no-permission-fallback-text": {
+    "title": "Mensagem",
+    "props": {
+      "blockClass": "fallback-container-product",
+      "text": "Você precisa estar em uma 'ORGANIZAÇÃO' para acessar está página",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "link#no-permission-button": {
+    "title": "Botão de Redirecionamento",
+    "props": {
+      "blockClass": ["fallback-container-product", "button"],
+      "label": "Solicite uma Organização",
+      "href": "/"
+    }
+  },
+
+  "flex-layout.row#disallowed-product-page": {
+    "title": "Mensagem sobre Organização",
+    "children": [
+      "rich-text#disallowed-product-page",
+      "link#disallowed-link-product-page"
+    ],
+    "props": {
+      "blockClass": "fallback-container-product"
+    }
+  },
+
+  "rich-text#disallowed-product-page": {
+    "title": "Mensagem",
+    "props": {
+      "blockClass": ["fallback-container-product", "content"],
+      "text": "Você precisa estar em uma organização para acessar está página!"
+    }
+  },
+
+  "link#disallowed-link-product-page": {
+    "title": "Botão de Redirecionamento",
+    "props": {
+      "blockClass": ["fallback-container-product", "button"],
+      "label": "Pedir nova organização",
+      "href": "/account#/organization"
+    }
+  }
+}

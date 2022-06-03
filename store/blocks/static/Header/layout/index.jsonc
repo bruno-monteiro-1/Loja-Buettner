@@ -1,0 +1,40 @@
+{
+  "header-layout.desktop": {
+    "title": "Cabeçalho",
+    "children": [
+      "flex-layout.row#notificationBar",
+      "header-custom-provider"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+
+  "header-custom-provider": {
+    "children": ["overlay-custom", "sticky-layout#header"]
+  },
+
+  "sticky-layout#header": {
+    "props": {
+      "position": "top"
+    },
+    "children": ["header-row#mainRowHeaderDesktop"]
+  },
+
+  "header-layout.mobile": {
+    "title": "Cabeçalho Mobile",
+    "children": [
+      "flex-layout.row#notificationBar",
+      "sticky-layout#header-mobile"
+    ],
+    "props": {
+      "blockClass": "header"
+    }
+  },
+  "sticky-layout#header-mobile": {
+    "props": {
+      "position": "top"
+    },
+    "children": ["header-row#mainRowHeaderMobile"]
+  }
+}

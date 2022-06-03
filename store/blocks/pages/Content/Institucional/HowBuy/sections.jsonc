@@ -1,0 +1,207 @@
+{
+  "flex-layout.row#main-container-first-section-how-buy": {
+    "title": "Primeira Sessão",
+    "children": [
+      "image#first-section-how-buy",
+      "rich-text#title-first-section-how-buy",
+      "rich-text#content-first-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "how-buy-content__container"
+    }
+  },
+
+  "image#first-section-how-buy": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/icons/howBuy/mail.svg",
+      "title": "Imagem de Sessão",
+      "alt": "Imagem de Sessão"
+    }
+  },
+
+  "rich-text#title-first-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__title",
+      "text": "### Primeiro Acesso",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#content-first-section-how-buy": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "how-buy-content__data",
+      "text": "Para começar a comprar no Portal Parceiros Buettner, você precisa de um acesso ao sistema. E para isso, você deve acessar a [Página de Cadastro / Login](/login) e na Sessão do Primeiro Acesso inserir o seu email e clicar em enviar. Você receberá um **Código de Primeiro Acesso** no seu email!",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#main-container-second-section-how-buy": {
+    "title": "Segunda Sessão",
+    "children": [
+      "image#second-section-how-buy",
+      "rich-text#title-second-section-how-buy",
+      "rich-text#content-second-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "how-buy-content__container"
+    }
+  },
+
+  "image#second-section-how-buy": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/icons/howBuy/log-in.svg",
+      "title": "Imagem de Sessão",
+      "alt": "Imagem de Sessão"
+    }
+  },
+
+  "rich-text#title-second-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__title",
+
+      "text": "### Acesse sua Conta",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#content-second-section-how-buy": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "how-buy-content__data",
+      "text": "Copie o **Código de Primeiro Acesso** enviado para o seu email e cole no campo determinado na área de Login e clique em Entrar. Você será redirecionado para a Home automaticamente.",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#main-container-third-section-how-buy": {
+    "title": "Terceira Sessão",
+    "children": [
+      "image#third-section-how-buy",
+      "rich-text#title-third-section-how-buy",
+      "rich-text#content-third-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "how-buy-content__container"
+    }
+  },
+
+  "image#third-section-how-buy": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/icons/howBuy/organization.svg",
+      "title": "Imagem de Sessão",
+      "alt": "Imagem de Sessão"
+    }
+  },
+
+  "rich-text#title-third-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__title",
+
+      "text": "### Solicitar Cadastro de Organização",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#content-third-section-how-buy": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "how-buy-content__data",
+      "text": "Em seguida, acesse a página da **Minha Conta** clicando no Botão no Menu Superior. Nessa Página, acesse a opção **Minha Organização** no Menu Lateral. \n\n Preencha os dados da sua empresa conforme solicitado e clique em Enviar!",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#main-container-fourth-section-how-buy": {
+    "title": "Quarta Sessão",
+    "children": [
+      "image#fourth-section-how-buy",
+      "rich-text#title-fourth-section-how-buy",
+      "rich-text#content-fourth-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "how-buy-content__container"
+    }
+  },
+
+  "image#fourth-section-how-buy": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/icons/howBuy/time.svg",
+      "title": "Imagem de Sessão",
+      "alt": "Imagem de Sessão"
+    }
+  },
+
+  "rich-text#title-fourth-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__title",
+
+      "text": "### Aguarde Aprovação",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#content-fourth-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__data",
+      "text": "O cadastro da sua organização passará por uma **breve análise**. Somente depois dessa aprovação é que você e sua empresa estarão aptos a comprar no Portal de Parceiros Buettner.",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#main-container-fifth-section-how-buy": {
+    "title": "Quinta Sessão",
+    "children": [
+      "image#fifth-section-how-buy",
+      "rich-text#title-fifth-section-how-buy",
+      "rich-text#content-fifth-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "how-buy-content__container"
+    }
+  },
+
+  "image#fifth-section-how-buy": {
+    "title": "Imagem",
+    "props": {
+      "src": "assets/icons/howBuy/checkbox.svg",
+      "title": "Imagem de Sessão",
+      "alt": "Imagem de Sessão"
+    }
+  },
+
+  "rich-text#title-fifth-section-how-buy": {
+    "title": "Título",
+    "props": {
+      "blockClass": "how-buy-content__title",
+      "text": "### Cadastro Aprovado",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#content-fifth-section-how-buy": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "how-buy-content__data",
+      "text": "Você receberá no seu email uma confirmação assim que seu cadastro for aprovado. \n\n E partir desse momento você já terá **acesso total** a preços e produtos. Você poderá também completar seu cadastro com todos os seus dados. Aconselhamos definir uma senha para futuros acessos. Caso necessite ou deseja, você pode cadastrar outros usuários dentro da sua organização.",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#final-section-message": {
+    "title": "Mensagem Final",
+    "props": {
+      "blockClass": "how-buy-content__final-message",
+      "text": "## Bons Negócios!!",
+      "textPosition": "CENTER"
+    }
+  }
+}

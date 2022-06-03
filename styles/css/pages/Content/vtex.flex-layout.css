@@ -1,0 +1,54 @@
+.flexRow--custom-page__main-container {
+  padding-inline: 16px;
+}
+
+.flexRow--custom-page__main-container
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--custom-page__main-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 32px;
+  margin-bottom: 160px;
+}
+
+.flexRow--custom-page__content-container {
+  padding: 32px;
+  border-radius: 24px;
+  border: 1px solid #d4d8e1;
+  background: #f2f2f2;
+}
+
+.flexRowContent--custom-page__content-container {
+  flex-direction: column;
+}
+
+.flexRowContent--custom-page__content-container :global(.vtex-alert) {
+  margin-top: 24px;
+  border-radius: 12px;
+  border: 1px solid #d4d8e1;
+}
+
+@media (max-width: 980px) {
+  .flexRow--custom-page__content-container {
+    margin-top: 32px;
+  }
+}
+
+@media (min-width: 980px) {
+  .flexRowContent--custom-page__main-container {
+    margin-bottom: 80px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow--custom-page__main-container {
+    padding-inline: 32px;
+  }
+
+  .flexRowContent--custom-page__main-container {
+    margin-bottom: 60px;
+  }
+}

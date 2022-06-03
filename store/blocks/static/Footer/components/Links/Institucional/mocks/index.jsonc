@@ -1,0 +1,45 @@
+{
+  "rich-text#text-institucional-title": {
+    "title": "Institucional",
+    "props": {
+      "blockClass": "title-information__text-footer",
+      "text": "Institucional"
+    }
+  },
+
+  "link#link-institucional1": {
+    "title": "Link 1",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Sobre a Buettner",
+      "href": "/institucional/sobre-nos"
+    }
+  },
+
+  "link#link-institucional2": {
+    "title": "Link 2",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Privacidade (LGPD)",
+      "href": "/institucional/politicas-de-privacidade"
+    }
+  },
+
+  "link#link-institucional3": {
+    "title": "Link 3",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Troca e Devoluções",
+      "href": "/institucional/trocas-e-devolucoes"
+    }
+  },
+
+  "link#link-institucional4": {
+    "title": "Link 4",
+    "props": {
+      "blockClass": "information__link-footer",
+      "label": "Entrega",
+      "href": "/institucional/entregas"
+    }
+  }
+}

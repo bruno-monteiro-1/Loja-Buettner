@@ -1,0 +1,17 @@
+.containerFlags {
+  min-height: 34px;
+  display: flex;
+  margin-top: 16px;
+}
+
+.productSpecifications {
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+  color: #747a87;
+  text-align: start;
+}
+
+@media (max-width: 780px) {
+  .containerFlags {
+    display: none;
+  }
+}

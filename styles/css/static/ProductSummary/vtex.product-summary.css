@@ -1,0 +1,90 @@
+:global(.vtex-product-summary-2-x-containerNormal) {
+  max-width: 100% !important;
+  border-radius: 0;
+}
+
+:global(.vtex-product-summary-2-x-imageNormal) {
+  max-height: 100% !important;
+}
+
+:global(.vtex-product-summary-2-x-imageContainer),
+:global(.vtex-product-summary-2-x-imageStackContainer) {
+  display: flex;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+:global(.vtex-product-summary-2-x-element) {
+  padding: 0;
+}
+
+:global(.vtex-product-summary-2-x-element),
+:global(.vtex-product-summary-2-x-nameContainer) {
+  justify-content: start;
+}
+
+:global(.vtex-product-summary-2-x-productBrand) {
+  min-height: 84px;
+  font: 18px/28px 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+  display: block;
+  text-align: start;
+}
+
+:global(.vtex-product-summary-2-x-nameContainer) {
+  padding: 16px 0 0;
+}
+
+:global(.vtex-product-summary-2-x-element--product-card__container) {
+  position: relative;
+}
+
+:global(.vtex-product-summary-2-x-element--product-card__container)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer) {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+}
+
+:global(.vtex-product-summary-2-x-element--product-card__container)
+  :global(.vtex-wish-list-1-x-outline) {
+  background: url('assets/icons/WhiteHeart.svg') center no-repeat;
+}
+
+:global(.vtex-wish-list-1-x-wishlistIconContainer--wishlist-button__container)
+  :global(.vtex-button__label) {
+  padding: 0 !important;
+}
+
+:global(.vtex-search-result-3-x-galleryItem--grid):nth-child(n + 4),
+:global(.vtex-search-result-3-x-galleryItem--grid2):nth-child(n + 5) {
+  margin-top: 67px;
+}
+
+.clearLink--product-card__container
+  :global(.vtex-auth-challenge-1-x-challengeContentWrapper) {
+  width: 100%;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-search-result-3-x-galleryItem--grid):nth-child(n + 3) {
+    margin-top: 32px;
+  }
+
+  :global(.vtex-product-summary-2-x-imageStackContainer) {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 780px) {
+  :global(.vtex-search-result-3-x-galleryItem) {
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-product-summary-2-x-productBrand) {
+    font: 0.875rem/1.25rem 'Open Sans SemiBold', sans-serif;
+  }
+}

@@ -1,0 +1,25 @@
+.headingLevel2--about-us__title {
+  margin: 0 0 32px;
+  font: 2.5rem/3.438rem 'Open Sans ExtraBold', sans-serif;
+}
+
+.paragraph--about-us__content {
+  font: 1.25rem/2rem 'Open Sans Regular,', sans-serif;
+  margin: 0;
+}
+
+.headingLevel2--about-us__title,
+.paragraph--about-us__content {
+  color: #363c4a;
+}
+
+@media (max-width: 780px) {
+  .paragraph--about-us__content {
+    font-size: 1.125rem;
+  }
+
+  .headingLevel2--about-us__title {
+    margin: 0 0 24px;
+    font: 2rem/2.625rem 'Open Sans ExtraBold', sans-serif;
+  }
+}

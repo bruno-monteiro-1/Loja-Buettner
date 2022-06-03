@@ -1,0 +1,4 @@
+:global(.vtex-flex-layout-0-x-flexRow--conditional-container__product-card)
+  + :global(.vtex-auth-challenge-1-x-challengeContentWrapper) {
+ min-height: 47px;
+}

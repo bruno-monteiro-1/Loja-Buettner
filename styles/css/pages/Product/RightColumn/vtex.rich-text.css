@@ -1,0 +1,16 @@
+.wrapper--sku-selector__title {
+  padding-left: 16px;
+  color: #363c4a;
+  font: 1.125rem/1.5rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-product-identifier-0-x-product-identifier) {
+  color: #747a87;
+  font: 1rem/1.375rem 'Open Sans Rugular', sans-serif;
+}
+
+@media (max-width: 680px) {
+  .wrapper--sku-selector__title {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "list-context.image-list#main-carousel__container": {
+    "title": "Banner Principal",
+    "children": ["slider-layout#main-carousel__content"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#main-carousel__content": {
+    "title": "Carrossel de Imagens",
+    "props": {
+      "blockClass": "main-carousel",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
+    }
+  }
+}

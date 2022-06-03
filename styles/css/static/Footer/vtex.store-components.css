@@ -1,0 +1,12 @@
+.container--payments__row--footer {
+  flex-wrap: wrap;
+}
+
+.container--stamps__row--footer {
+  flex-wrap: wrap;
+}
+
+.imageElement {
+  height: min-content;
+  width: min-content;
+}

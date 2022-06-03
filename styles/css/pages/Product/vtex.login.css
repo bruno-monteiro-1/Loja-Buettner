@@ -1,0 +1,80 @@
+:global(.render-route-store-product)
+  :global(.vtex-auth-challenge-1-x-challengeContentWrapper) {
+  max-width: 100vw;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  > div
+  > :global(.vtex-flex-layout-0-x-flexColChild):last-child {
+  height: 100%;
+  width: 100%;
+  max-width: 428px;
+  padding: 8px 22px;
+  background: #d4d8e1;
+  border-radius: 6px;
+  font: 1rem/1.375rem 'Open sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--productSpecificationName) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-dropdown__arrow) svg {
+  display: none;
+}
+
+:global(.vtex-dropdown__arrow)::before {
+  content: url('assets/icons/Arrow.svg');
+  transform: rotate(90deg);
+  image-rendering: optimizespeed;
+  height: 24px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--main-product__container)
+  :global(.vtex-wish-list-1-x-wishlistIconContainer)
+  :global(.vtex-button__label) {
+  padding: 0;
+}
+
+:global(.vtex-store-components-3-x-seeMoreButton) :global(.vtex-button__label) {
+  color: #363c4a;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--product-description__container) + div {
+  margin-bottom: 56px;
+}
+
+@media (max-width: 780px) {
+  .flexRowContent--newsletter-product-page {
+    margin-top: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  :global(.vtex-flex-layout-0-x-flexRow--product-description__container) {
+    margin: 112px 0 80px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-description__container) {
+    padding: 40px 32px;
+    background: #f2f2f2;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-description__container)
+    > :global(.vtex-flex-layout-0-x-stretchChildrenWidth:last-child) {
+    margin-top: 48px;
+  }
+
+  :global(.vtex-flex-layout-0-x-flexRow--product-description__container) + div {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--product-description__container) {
+    padding: 40px 32px 64px;
+  }
+}

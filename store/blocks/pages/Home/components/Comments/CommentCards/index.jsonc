@@ -1,0 +1,79 @@
+{
+  "flex-layout.col#client-comments__card-1": {
+    "title": "Comentário - 1",
+    "children": [
+      "image#card-image-avatar-1",
+      "rich-text#card__content-1",
+      "rich-text#card__author-1",
+      "rich-text#card__store-1"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  },
+
+  "flex-layout.col#client-comments__card-2": {
+    "title": "Comentário - 2",
+    "children": [
+      "image#card-image-avatar-2",
+      "rich-text#card__content-2",
+      "rich-text#card__author-2",
+      "rich-text#card__store-2"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  },
+
+  "flex-layout.col#client-comments__card-3": {
+    "title": "Comentário - 3",
+    "children": [
+      "image#card-image-avatar-3",
+      "rich-text#card__content-3",
+      "rich-text#card__author-3",
+      "rich-text#card__store-3"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  },
+
+  "flex-layout.col#client-comments__card-4": {
+    "title": "Comentário - 4",
+    "children": [
+      "image#card-image-avatar-4",
+      "rich-text#card__content-4",
+      "rich-text#card__author-4",
+      "rich-text#card__store-4"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  },
+
+  "flex-layout.col#client-comments__card-5": {
+    "title": "Comentário - 5",
+    "children": [
+      "image#card-image-avatar-5",
+      "rich-text#card__content-5",
+      "rich-text#card__author-5",
+      "rich-text#card__store-5"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  },
+
+  "flex-layout.col#client-comments__card-6": {
+    "title": "Comentário - 6",
+    "children": [
+      "image#card-image-avatar-6",
+      "rich-text#card__content-6",
+      "rich-text#card__author-6",
+      "rich-text#card__store-6"
+    ],
+    "props": {
+      "blockClass": ["comments-clients", "slider", "comments-card"]
+    }
+  }
+}

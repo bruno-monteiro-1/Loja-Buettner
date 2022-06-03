@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#stamps__row--footer": {
+    "title": "Selos de Qualidade e Segurança",
+    "props": {
+      "blockClass": "stamps__row--footer"
+    },
+
+    "children": [
+      "image#stamps__children--1",
+      "image#stamps__children--2",
+      "image#stamps__children--3",
+      "image#stamps__children--4",
+      "image#stamps__children--5"
+    ]
+  }
+}

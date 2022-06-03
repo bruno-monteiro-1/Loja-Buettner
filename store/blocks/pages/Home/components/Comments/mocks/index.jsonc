@@ -1,0 +1,205 @@
+{
+  "image#card-image-avatar-1": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/hansolo.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-1": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-1": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Han Solo"
+    }
+  },
+
+  "rich-text#card__store-1": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Millennium Falcon Decor"
+    }
+  },
+
+  "image#card-image-avatar-2": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/luke.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-2": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-2": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Luke Skywalker"
+    }
+  },
+
+  "rich-text#card__store-2": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Sky Home Store"
+    }
+  },
+
+  "image#card-image-avatar-3": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/leia.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-3": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-3": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Leia Organa"
+    }
+  },
+
+  "rich-text#card__store-3": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Alderaan Mega Shop"
+    }
+  },
+
+  "image#card-image-avatar-4": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/hansolo.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-4": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-4": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Han Solo"
+    }
+  },
+
+  "rich-text#card__store-4": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Millennium Falcon Decor"
+    }
+  },
+
+  "image#card-image-avatar-5": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/luke.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-5": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-5": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Luke Skywalker"
+    }
+  },
+
+  "rich-text#card__store-5": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Sky Home Store"
+    }
+  },
+
+  "image#card-image-avatar-6": {
+    "title": "Avatar",
+    "props": {
+      "blockClass": ["comments-card", "image"],
+      "src": "assets/images/avatars/leia.png",
+      "title": "Avatar",
+      "alt": "Avatar"
+    }
+  },
+
+  "rich-text#card__content-6": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["comments-card", "content"],
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }
+  },
+
+  "rich-text#card__author-6": {
+    "title": "Autor",
+    "props": {
+      "blockClass": ["comments-card", "author"],
+      "text": "Leia Organa"
+    }
+  },
+
+  "rich-text#card__store-6": {
+    "title": "Loja",
+    "props": {
+      "blockClass": ["comments-card", "store"],
+      "text": "Alderaan Mega Shop"
+    }
+  }
+}

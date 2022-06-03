@@ -1,0 +1,167 @@
+:global(.vtex-my-orders-app-3-x-orderCard) {
+  border-radius: 24px;
+  background: #f2f2f2;
+  padding: 40px 32px 48px;
+}
+:global(.vtex-my-orders-app-3-x-orderHeader),
+:global(.vtex-my-orders-app-3-x-orderBody) {
+  background: none;
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeader) {
+  padding: 0 16px 56px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderBody) {
+  padding: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeaderLabel),
+:global(.vtex-my-orders-app-3-x-orderHeaderValue) {
+  font: 18px/32px 'Open Sans', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeaderValue) > div {
+  margin-left: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeaderLabel) {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderId) {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderHeaderLabel),
+:global(.vtex-my-orders-app-3-x-orderHeaderValue),
+:global(.vtex-my-orders-app-3-x-orderId),
+:global(.vtex-my-orders-app-3-x-orderId) + div + div > div > span {
+  color: #363c4a;
+}
+
+:global(.vtex-my-orders-app-3-x-orderId) + div + div {
+  margin-top: 12px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderId) + div + div > div {
+  background: #d4d8e1;
+  border-radius: 6px;
+  padding: 5px 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderId) + div + div > div > span {
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+  text-transform: uppercase;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct) {
+  padding: 0;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct)
+  + :global(.vtex-my-orders-app-3-x-orderProduct) {
+  margin-top: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct) > div:first-child {
+  max-width: 80px;
+  margin-right: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct) > div:nth-child(2) {
+  padding: 0;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct) img {
+  width: 80px;
+  border-radius: 6px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductName) {
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductShipping) {
+  margin: 8px 0 4px;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductName),
+:global(.vtex-my-orders-app-3-x-orderProductName):hover,
+:global(.vtex-my-orders-app-3-x-orderProductShipping),
+:global(.vtex-my-orders-app-3-x-orderProductQuantity),
+:global(.vtex-my-orders-app-3-x-orderProductValue) {
+  color: #363c4a;
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn) {
+  margin-top: 16px;
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn),
+:global(.vtex-my-orders-app-3-x-reorderBtn) {
+  align-items: center;
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn)
+  :global(.vtex-my-orders-app-3-x-font),
+:global(.vtex-my-orders-app-3-x-cancelBtn)
+  :global(.vtex-my-orders-app-3-x-font) {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  margin-left: 8px;
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn) svg,
+:global(.vtex-my-orders-app-3-x-reorderBtn) svg {
+  display: none;
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn)::before,
+:global(.vtex-my-orders-app-3-x-cancelBtn):before {
+  height: 16px;
+  display: block;
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn)::before {
+  content: url('assets/icons/Reload.svg');
+}
+
+:global(.vtex-my-orders-app-3-x-reorderBtn)
+  :global(.vtex-my-orders-app-3-x-font) {
+  color: #3ead77;
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn):before {
+  content: url('assets/icons/CircleClose.svg');
+}
+
+:global(.vtex-my-orders-app-3-x-cancelBtn)
+  :global(.vtex-my-orders-app-3-x-font) {
+  color: #ff3e3e;
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+  margin-top: 32px;
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+  min-height: 40px;
+  width: fit-content;
+  background: #363c4a;
+  border-radius: 12px;
+  border: none;
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn) span {
+  font: 1rem/1.375rem 'Open Sans Bold', sans-serif;
+  color: #fff;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProduct) + a {
+  margin: 24px 0 0 96px;
+  display: block;
+  font: italic 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}

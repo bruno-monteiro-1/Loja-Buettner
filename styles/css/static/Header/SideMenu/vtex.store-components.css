@@ -1,0 +1,24 @@
+.vtex-store-components-3-x-container {
+  padding: 0;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button) {
+  min-height: 32px;
+}
+
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):hover,
+:global(.vtex-minicart-2-x-openIconContainer) :global(.vtex-button):active {
+  background-color: transparent;
+}
+
+:global(.vtex-store-drawer-0-x-childrenContainer--side-menu)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-store-drawer-0-x-childrenContainer--side-menu)
+    :global(.vtex-store-components-3-x-container) {
+    margin: 0;
+  }
+}

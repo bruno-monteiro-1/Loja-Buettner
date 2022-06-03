@@ -1,0 +1,24 @@
+.flexRowContent--account-field__container {
+  width: 100%;
+  align-items: flex-start;
+}
+
+:global(.vtex-overlay-layout-0-x-trigger--overlay-trigger) {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 1325px) {
+  :global(.vtex-overlay-layout-0-x-trigger--overlay-trigger) {
+    width: 147px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .flexRowContent--account-field__container
+    :global(.vtex-auth-challenge-1-x-challengeContentWrapper) {
+    margin: 0;
+  }
+}

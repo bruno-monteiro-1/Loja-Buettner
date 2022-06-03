@@ -1,0 +1,85 @@
+{
+  "flex-layout.row#related-products-first-row": {
+    "title": "Produtos Relacionados - Primeiro Carrossel",
+    "children": [
+      "rich-text#title-first-row",
+      "list-context.product-list#first-row"
+    ],
+    "props": {
+      "blockClass": "related-products__container"
+    }
+  },
+
+  "rich-text#title-first-row": {
+    "title": "Título",
+    "props": {
+      "blockClass": "related-products__title",
+      "text": "Outras Opções",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "list-context.product-list#first-row": {
+    "title": "Lista de Produtos",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#first-list"]
+  },
+
+  "slider-layout#first-list": {
+    "title": "Carrossel",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "related-products__slider"
+    }
+  },
+
+  "flex-layout.row#related-products-second-row": {
+    "title": "Produtos Relacionados - Segundo Carrossel",
+    "children": [
+      "rich-text#title-second-row",
+      "list-context.product-list#second-row"
+    ],
+    "props": {
+      "blockClass": "related-products__container"
+    }
+  },
+
+  "rich-text#title-second-row": {
+    "title": "Título",
+    "props": {
+      "blockClass": "related-products__title",
+      "text": "Novidades",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "list-context.product-list#second-row": {
+    "title": "Lista de Produtos",
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#second-list"]
+  },
+
+  "slider-layout#second-list": {
+    "title": "Carrossel",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "showPaginationDots": "mobileOnly",
+      "blockClass": "related-products__slider"
+    }
+  }
+}

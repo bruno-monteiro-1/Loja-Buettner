@@ -1,0 +1,118 @@
+{
+  "account-functionalities-card#1": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/User.svg",
+        "link": "/login",
+        "title": "Minha Conta",
+        "subtitle": "Faça o Login ou Cadastre-se"
+      }
+    }
+  },
+
+  "account-functionalities-card#2": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Whatsapp.svg",
+        "title": "Atendimento",
+        "subtitle": "Compre pelo WhatsApp",
+        "link": "https://api.whatsapp.com/send?phone=08000144500"
+      }
+    }
+  },
+
+  "account-functionalities-card#connected-client": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/User.svg",
+        "link": "",
+        "title": "Minha Conta",
+        "subtitle": "Clique e veja suas informações"
+      }
+    }
+  },
+
+  // WhatsApp
+
+  "account-functionalities-card#attendence-whatsapp": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Whatsapp.svg",
+        "title": "0800 014 4500",
+        "subtitle": "Compre pelo Whatsapp",
+        "link": "https://api.whatsapp.com/send?phone=08000144500",
+        "inDropdown": true
+      }
+    }
+  },
+
+  "account-functionalities-card#common-questions": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Question.svg",
+        "title": "Dúvidas Frequentes",
+        "subtitle": "Podemos te ajudar",
+        "link": "/faq",
+        "inDropdown": true
+      }
+    }
+  },
+
+  "account-functionalities-card#send-email": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Mail.svg",
+        "title": "Entre em Contato",
+        "subtitle": "Envie-nos uma mensagem",
+        "link": "mailto:someone@microsoft.com?subject=Hello%20again",
+        "inDropdown": true
+      }
+    }
+  },
+
+  // MyAccount
+
+  "account-functionalities-card#profile": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/User.svg",
+        "subtitle": "Meus dados",
+        "link": "/account#/profile",
+        "inDropdown": true
+      }
+    }
+  },
+
+  "account-functionalities-card#organization": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Organization.svg",
+        "subtitle": "Minha Organização",
+        "link": "/account#/organization",
+        "inDropdown": true
+      }
+    }
+  },
+
+  "account-functionalities-card#orders": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/Document.svg",
+        "subtitle": "Meus pedidos",
+        "link": "/account#/orders",
+        "inDropdown": true
+      }
+    }
+  },
+
+  "account-functionalities-card#wishlist": {
+    "props": {
+      "context": {
+        "icon": "assets/icons/BlackHeart.svg",
+        "subtitle": "Lista de Desejos",
+        "link": "/account#/wishlist",
+        "inDropdown": true
+      }
+    }
+  }
+}

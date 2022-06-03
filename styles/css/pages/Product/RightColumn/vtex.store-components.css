@@ -1,0 +1,62 @@
+.productBrand--product-name {
+  font: 1.5rem/2.063rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+  width: 100%;
+  display: block;
+  min-height: 66px;
+  margin-bottom: 32px;
+}
+
+.skuSelectorSelectContainer {
+  width: 100%;
+}
+
+.skuSelectorOptionsList {
+  margin: 0;
+}
+
+:global(.vtex-dropdown__container) {
+  border: none;
+}
+
+:global(.vtex-dropdown__button) {
+  background: #f2f2f2;
+  border-radius: 12px;
+  color: #747a87;
+  font: 1rem/1.375rem 'Open Sans Regular', sans-serif;
+}
+
+.skuSelectorName {
+  padding-left: 16px;
+}
+
+.skuSelectorContainer .skuSelectorSubcontainer {
+  margin-bottom: 24px;
+}
+
+.skuSelectorNameContainer {
+  margin: 0;
+}
+
+.shippingNoMessage {
+  font: 1rem/1.375rem 'Open Sans Italic', sans-serif;
+  padding-left: 16px;
+  color: #747a87;
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.frameAround--sku-selector-pdp {
+  border-color: #595959;
+}
+
+@media (max-width: 760px) {
+  .productBrand--product-name {
+    font-size: 1.125rem;
+    line-height: 24px;
+  }
+}

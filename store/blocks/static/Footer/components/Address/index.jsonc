@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#address__row--footer": {
+    "children": ["rich-text#address__text--footer"],
+    "props": {
+      "blockClass": "footer-mobile"
+    }
+  },
+
+  "rich-text#address__text--footer": {
+    "title": "Endereço",
+    "props": {
+      "blockClass": "address__text--footer",
+      "text": "**Bouton Indústria e Comércio de Artigos de Cama e Banho Ltda** \n Rua do Cedro, 1181 \n Dom Joaquim | Brusque-SC | 88359-000 \n CNPJ: 08.313.402/0001-58"
+    }
+  }
+}

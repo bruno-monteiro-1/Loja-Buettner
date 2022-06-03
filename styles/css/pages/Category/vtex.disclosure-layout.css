@@ -1,0 +1,42 @@
+.trigger--filters-disclosure__trigger {
+  width: fit-content !important;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 64px;
+  margin-left: 16px;
+  border-radius: 16px 16px 0 0;
+  border: 1px solid #d4d8e1;
+  border-bottom: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.trigger--filters-disclosure__trigger::after {
+  content: url('assets/icons/Arrow.svg');
+  height: 32px;
+  width: 32px;
+  margin-left: 16px;
+  transform: rotate(90deg);
+}
+
+.trigger--filters-disclosure__trigger :global(.vtex-rich-text-0-x-paragraph) {
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+  color: #747a87;
+}
+
+.trigger--filters-disclosure__trigger :global(.vtex-store-icons-0-x-caretIcon) {
+  display: none;
+}
+
+.content--filters-disclosure__content--visible {
+  position: relative;
+  z-index: 2;
+}
+
+.content--filters-disclosure__content--hidden {
+  height: 0;
+  display: block !important;
+  z-index: 1;
+}

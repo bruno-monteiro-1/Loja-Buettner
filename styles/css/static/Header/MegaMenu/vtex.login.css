@@ -1,0 +1,44 @@
+:global(.vtex-mega-menu-2-x-menuItem--mega-menu.bg-black-05) {
+  border-bottom: 1px solid #d4d8e1;
+}
+
+@media (min-width: 1025px) {
+  :global(.vtex-mega-menu-2-x-submenuItem--isClosed)
+    > :global(.vtex-mega-menu-2-x-styledLinkContainer) {
+    position: absolute;
+    top: -40px;
+  }
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-mega-menu-2-x-goBackButton) svg,
+  :global(.vtex-mega-menu-2-x-accordionIconContainer--mega-menu--isClosed) svg {
+    display: none;
+  }
+
+  :global(.vtex-mega-menu-2-x-submenuItemVertical)
+    :global(.vtex-styleguide-9-x-jsFocusVisible)
+    > div:first-child,
+  .collapsibleContent--mega-menu > div {
+    border-bottom: 1px solid #d4d8e1;
+  }
+
+  li > :global(.vtex-mega-menu-2-x-styledLinkContainer--mega-menu) {
+    padding: 16px 0px 16px 8px;
+  }
+
+  :global(.vtex-mega-menu-2-x-submenuItemVertical--mega-menu)
+    :global(.vtex-mega-menu-2-x-collapsibleContent--mega-menu)
+    > div {
+    padding: 16px 24px;
+  }
+
+  :global(.vtex-mega-menu-2-x-submenuItemVertical)
+    :global(.vtex-styleguide-9-x-jsFocusVisible)
+    > .pointer,
+  :global(.vtex-mega-menu-2-x-submenuItemVertical)
+    :global(.vtex-styleguide-9-x-jsFocusVisible)
+    > div:first-child {
+    padding: 0 16px 0 24px;
+  }
+}

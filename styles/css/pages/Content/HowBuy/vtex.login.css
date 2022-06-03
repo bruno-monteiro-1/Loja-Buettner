@@ -1,0 +1,14 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--custom-page__how-buy)
+  > :global(.vtex-flex-layout-0-x-stretchChildrenWidth):last-child
+  > :global(.vtex-flex-layout-0-x-flexRow--how-buy-content__container) {
+  max-width: 1168px;
+  border: 1px solid #d4d8e1;
+  background: #f2f2f2;
+  border-radius: 24px;
+  padding: 80px 32px 120px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--how-buy-content__data)
+  + :global(.vtex-rich-text-0-x-paragraph--how-buy-content__data) {
+  margin-top: 16px;
+}

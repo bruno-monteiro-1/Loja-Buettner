@@ -1,0 +1,28 @@
+.sliderLayoutContainer--related-products__slider .sliderRightArrow::before,
+.sliderLayoutContainer--related-products__slider .sliderLeftArrow::before {
+  content: url('assets/icons/ArrowWhiteSlider.svg');
+}
+
+.sliderLayoutContainer--related-products__slider .sliderLeftArrow {
+  left: -56px;
+}
+
+.sliderLayoutContainer--related-products__slider .sliderLeftArrow::before {
+  transform: unset;
+}
+
+.sliderLayoutContainer--related-products__slider .sliderRightArrow {
+  right: -56px;
+}
+
+.sliderLayoutContainer--related-products__slider .sliderRightArrow::before {
+  transform: scale(-1);
+}
+
+.sliderTrack--related-products__slider .slide {
+  padding: 0 5px;
+}
+
+.caretIcon--related-products__slider {
+  display: none;
+}

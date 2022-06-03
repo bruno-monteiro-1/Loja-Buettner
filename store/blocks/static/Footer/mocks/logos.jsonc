@@ -1,0 +1,40 @@
+{
+  "image#logo-footer-lojaBuettner": {
+    "title": "Logo Loja Buettner",
+    "props": {
+      "title": "Loja Bouton",
+      "alt": "Loja Bouton",
+      "src": "assets/icons/footer/logos/logo-Buettner.svg",
+      "link": {
+        "url": "/"
+      },
+      "width": 160
+    }
+  },
+
+  "image#logo__children--1": {
+    "title": "Logo Vtex",
+    "props": {
+      "alt": "VTEX",
+      "title": "VTEX",
+      "src": "assets/icons/footer/logos/logo-Vtex.svg",
+      "link": {
+        "url": "https://vtex.com/",
+        "newTab": true
+      }
+    }
+  },
+
+  "image#logo__children--2": {
+    "title": "Logo Modular",
+    "props": {
+      "alt": "Modular",
+      "title": "Modular",
+      "src": "assets/icons/footer/logos/logo-Modular.svg",
+      "link": {
+        "url": "http://www.agenciamodular.com.br/",
+        "newTab": true
+      }
+    }
+  }
+}

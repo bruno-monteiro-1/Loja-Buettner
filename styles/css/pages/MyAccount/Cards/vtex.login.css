@@ -1,0 +1,4 @@
+:global(.vtex-account__cards-list) :global(.t-heading-4) span {
+  font: 20px/27px 'Open Sans Regular', sans-serif;
+  color: #363c4a;
+}

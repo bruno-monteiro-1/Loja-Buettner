@@ -1,0 +1,35 @@
+.link--signup-now__button {
+  height: 48px;
+  max-width: 428px;
+  color: #fff;
+  background-color: #ff3e3e;
+  border-radius: 12px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+.link--signup-now__button:hover {
+  filter: opacity(0.9);
+}
+
+.link--signup-now__button:active {
+  filter: brightness(0.95);
+}
+
+.label--signup-now__button {
+  font: 1.125rem/1.5rem 'Open Sans SemiBold', sans-serif;
+}
+
+@media (max-width: 1025px) {
+  .link--signup-now__button {
+    height: 40px;
+  }
+
+  .label--signup-now__button {
+    font-size: 1rem;
+  }
+}

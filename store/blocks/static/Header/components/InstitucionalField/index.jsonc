@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#side-menu__children-links": {
+    "title": "Links Institucionais",
+    "children": ["header-links-container", "search-bar-container"],
+    "props": {
+      "blockClass": "mega-menu__intitucional-field"
+    }
+  },
+
+  "header-links-container": {
+    "children": [
+      "flex-layout.row#side-menu__children-link-desktop",
+      "link#side-menu__children-link-1",
+      "link#side-menu__children-link-2"
+    ]
+  },
+
+  "flex-layout.row#side-menu__children-link-desktop": {
+    "children": ["flex-layout.col#trigger-mega-menu", "mega-menu"],
+    "props": {
+      "blockClass": "mega-menu__children-link"
+    }
+  },
+
+  "flex-layout.row#side-menu__children-links-mobile": {
+    "title": "Links Institucionais",
+    "children": [
+      "disclosure-layout#mega-menu-trigger",
+      "link#side-menu__children-link-1",
+      "link#side-menu__children-link-2"
+    ],
+    "props": {
+      "blockClass": "mega-menu__intitucional-field"
+    }
+  },
+
+  "disclosure-layout#mega-menu-trigger": {
+    "children": ["disclosure-trigger#trigger", "disclosure-content#container"]
+  },
+
+  "disclosure-trigger#trigger": {
+    "children": ["rich-text#disclosure-title"],
+    "props": {
+      "blockClass": "disclosure--menu__trigger"
+    }
+  },
+
+  "disclosure-content#container": {
+    "children": ["mega-menu#mobile"]
+  },
+
+  "rich-text#disclosure-title": {
+    "props": {
+      "blockClass": "disclosure--menu__title",
+      "text": "DEPARTAMENTOS"
+    }
+  },
+
+  "flex-layout.row#side-menu__children-link": {
+    "props": {
+      "blockClass": "mega-menu__children-link"
+    }
+  },
+
+  "link#side-menu__children-link-1": {
+    "title": "Link Personalizável",
+    "props": {
+      "blockClass": ["mega-menu__children-link", "last-child"],
+      "label": "SOBRE A BUETTNER",
+      "href": "/institucional/sobre-nos"
+    }
+  },
+
+  "link#side-menu__children-link-2": {
+    "title": "Link Personalizável",
+    "props": {
+      "blockClass": ["mega-menu__children-link", "last-child"],
+      "label": "COMO COMPRAR",
+      "href": "/como-comprar"
+    }
+  }
+}

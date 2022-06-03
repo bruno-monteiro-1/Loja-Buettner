@@ -1,0 +1,46 @@
+.vtex-flex-layout-0-x-flexRow--mega-menu__children-link {
+  position: relative;
+}
+
+.flexRowContent--mega-menu__children-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.flexRowContent--mega-menu__children-link
+  .vtex-flex-layout-0-x-stretchChildrenWidth:last-child {
+  position: relative;
+}
+
+@media (max-width: 1025px) {
+  .flexRowContent--side-menu__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRowContent--mega-menu__children-link .flexColChild {
+    height: 96px !important;
+    display: inherit;
+    position: relative;
+  }
+
+  .flexRowContent--mega-menu__children-link .flexColChild::before {
+    content: '';
+    height: 6px;
+    width: 100%;
+    background: #ff3e3e;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 0.5s;
+  }
+
+  .flexRowContent--mega-menu__children-link .flexColChild:hover::before {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "store.custom#delivery": {
+    "blocks": ["flex-layout.row#main-container-delivery"]
+  },
+
+  "flex-layout.row#main-container-delivery": {
+    "title": "Container Principal",
+    "children": [
+      "rich-text#title-page-delivery",
+      "side-menu-content-page#delivery",
+      "flex-layout.row#content-container-delivery"
+    ],
+    "props": {
+      "blockClass": "custom-page__main-container"
+    }
+  },
+
+  "rich-text#title-page-delivery": {
+    "title": "Título da Página",
+    "props": {
+      "blockClass": "custom-page__title",
+      "text": "# Institucional"
+    }
+  },
+
+  "side-menu-content-page#delivery": {
+    "props": {
+      "pageContext": "Institucional",
+      "active": "Entregas"
+    }
+  },
+
+  "flex-layout.row#content-container-delivery": {
+    "title": "Container de Conteúdo",
+    "children": [
+      "rich-text#custom-title-container-delivery",
+      "rich-text#custom-data-container-delivery"
+    ],
+    "props": {
+      "blockClass": "custom-page__content-container"
+    }
+  },
+
+  "rich-text#custom-title-container-delivery": {
+    "title": "Título do Conteúdo",
+
+    "props": {
+      "blockClass": "custom-page__content-container--title",
+      "text": "## Entregas"
+    }
+  },
+
+  "rich-text#custom-data-container-delivery": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--data",
+      "text": "O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. "
+    }
+  }
+}

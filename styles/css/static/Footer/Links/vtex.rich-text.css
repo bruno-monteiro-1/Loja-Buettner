@@ -1,0 +1,12 @@
+.paragraph--title-information__text-footer {
+  margin-top: 0;
+  margin-bottom: 18px;
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+@media (max-width: 1025px) {
+  .paragraph--title-information__text-footer {
+    margin-bottom: 24px;
+  }
+}

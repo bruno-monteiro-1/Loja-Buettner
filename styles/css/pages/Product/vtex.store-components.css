@@ -1,0 +1,61 @@
+.productImagesGallerySlide,
+.productImagesGallerySwiperContainer {
+  width: 100% !important;
+}
+
+.productImagesGallerySlide,
+.productImagesGallerySwiperContainer {
+  max-width: 724px;
+  margin: 0;
+}
+
+.productImageTag--main {
+  max-height: 100% !important;
+  border-radius: 24px;
+}
+
+.productDescriptionContainer--product-description__container,
+.productDescriptionTitle--product-description__content,
+:global(.vtex-product-specifications-1-x-groupName),
+.caretIcon {
+  color: #363c4a;
+}
+
+.productDescriptionTitle--product-description__content,
+:global(.vtex-product-specifications-1-x-groupName) {
+  font: 1.5rem/2.063rem 'Open Sans Bold', sans-serif;
+  margin-bottom: 40px;
+}
+
+.productDescriptionText--product-description__container {
+  font: 16px/30px 'Open Sans Regular', sans-serif;
+}
+
+.frameAround {
+  border-color: #363c4a;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--product-specification__container) {
+  height: fit-content !important;
+}
+
+@media (max-width: 640px) {
+  :global(.vtex-flex-layout-0-x-flexRowContent--productSpecificationGroup)
+    :global(.vtex-flex-layout-0-x-flexCol) {
+    align-items: center;
+  }
+
+  .productDescriptionTitle--product-description__content,
+  :global(.vtex-product-specifications-1-x-groupName) {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1400px) {
+  .productImagesGallerySlide,
+  .productImagesGallerySwiperContainer {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,168 @@
+{
+   "store.login": {
+     "blocks": ["flex-layout.row#authentication-page"]
+   },
+
+  "flex-layout.row#authentication-page": {
+    "children": [
+      "rich-text#authentication-page",
+      "flex-layout.row#forms"
+    ],
+    "props": {
+      "blockClass": "container-page-login"
+    }
+  },
+
+  "rich-text#authentication-page": {
+    "title": "Titulo da Página",
+    "props": {
+      "blockClass": "authentication-title",
+      "text": "Entre / Cadastre-se"
+    }
+  },
+
+  "flex-layout.row#forms": {
+    "title": "Login e Cadastro",
+    "children": [
+      "flex-layout.col#login-email-password",
+      "flex-layout.col#login-first-access"
+    ],
+    "props": {
+      "blockClass": "container-login"
+    }
+  },
+
+
+
+"flex-layout.col#login-email-password": {
+  "title": "Login",
+  "props": {
+    "blockClass": "login-email-password"
+  },
+  "children": [
+    "login-content#login-email-password",
+    "rich-text#login-title"
+  ]
+},
+
+"rich-text#login-title": {
+  "title": "Titulo do Login",
+  "props": {
+    "blockClass":"login-title",
+    "text": "Já tem Cadastro?\nInforme seus dados e acesse sua conta!"
+  }
+},
+
+"login-content#login-email-password": {
+  "title":"Campo do Login",
+  "props": {
+    "defaultOption": 1,
+    "optionsTitle": "ou",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Senha"
+  }
+},
+
+"flex-layout.col#login-first-access": {
+  "title": "Campo de Cadastro",
+  "props": {
+    "blockClass": "login-first-access"
+  },
+    "children": [
+        "rich-text#first-login-title",
+        "login-content#login-first-access",
+        "rich-text#text-help",
+        "flex-layout.row#buttons-links"
+    ]
+  },
+
+  "rich-text#first-login-title": {
+    "title": "Titulo do Cadastro",
+    "props": {
+      "blockClass": "first-login-title",
+      "text": "Primeiro Acesso?\nInforme seu email abaixo para receber um código de acesso"
+    }
+  },
+
+
+"login-content#login-first-access": {
+  "title": "Cadastro",
+  "props": {
+    "defaultOption": 0,
+    "termsAndConditions": "",
+    "emailPlaceholder": "Email"
+  }
+},
+
+"rich-text#text-help": {
+  "title": "Textos de Ajuda",
+  "props": {
+    "blockClass":"text-help",
+    "text": "Precisa de Ajuda?\nVeja nossa página especial “Como Comprar” ou\nacesse um dos nossos canais de atendimento."
+  }
+},
+
+"flex-layout.row#buttons-links": {
+  "title": "Botões de Ajuda",
+  "props": {
+    "blockClass": "button-links"
+  },
+  "children": [
+    "flex-layout.row#how-buy",
+    "flex-layout.row#whatsapp",
+    "flex-layout.row#phone"
+  ]
+},
+
+"flex-layout.row#how-buy": {
+  "props": {
+    "blockClass": "botton-login"
+  },
+  "children": [
+    "image#how-buy"
+  ]
+},
+"flex-layout.row#whatsapp": {
+
+  "props": {
+    "blockClass": "botton-login"
+  },
+  "children": [
+    "image#whatsapp"
+  ]
+},
+"flex-layout.row#phone": {
+  "props": {
+    "blockClass": "botton-login"
+  },
+  "children": [
+    "image#phone"
+  ]
+},
+
+"image#how-buy": {
+  "title": "Como Comprar",
+  "props": {
+    "blockClass": "image-links-login",
+    "src": "assets/icons/login/login_how-buy.svg",
+    "link": {"url": "/como-comprar"}
+  }
+},
+
+"image#whatsapp": {
+  "title": "Whatsapp",
+  "props": {
+    "blockClass": "image-links-login",
+    "src": "assets/icons/login/login_whatsapp.svg"
+  }
+},
+
+"image#phone": {
+  "title": "Telefone",
+  "props": {
+    "blockClass": "image-links-login",
+    "src": "assets/icons/login/login_phone.svg"
+  }
+}
+
+}

@@ -1,0 +1,66 @@
+:global(.vtex-store-link-0-x-link--vertical-banners__container-button),
+:global(.vtex-store-link-0-x-link--about-us__link),
+:global(.vtex-store-link-0-x-link--about-us__link-secondary),
+:global(.vtex-store-link-0-x-link--reseller-buettner__container-link) {
+  height: 48px;
+  max-width: 428px;
+  color: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-link-0-x-link--vertical-banners__container-button),
+:global(.vtex-store-link-0-x-link--about-us__link),
+:global(.vtex-store-link-0-x-link--reseller-buettner__container-link) {
+  background-color: #ff3e3e;
+}
+
+:global(.vtex-store-link-0-x-link--about-us__link-secondary) {
+  background-color: #363c4a;
+}
+
+:global(.vtex-store-link-0-x-link--vertical-banners__container-button):hover,
+:global(.vtex-store-link-0-x-link--about-us__link):hover,
+:global(.vtex-store-link-0-x-link--about-us__link-secondary):hover,
+:global(.vtex-store-link-0-x-link--reseller-buettner__container-link):hover {
+  filter: opacity(0.9);
+}
+
+:global(.vtex-store-link-0-x-link--vertical-banners__container-button):active,
+:global(.vtex-store-link-0-x-link--about-us__link):active,
+:global(.vtex-store-link-0-x-link--about-us__link-secondary):active,
+:global(.vtex-store-link-0-x-link--reseller-buettner__container-link):active {
+  filter: brightness(0.95);
+}
+
+:global(.vtex-store-link-0-x-label--vertical-banners__container-button),
+:global(.vtex-store-link-0-x-label--about-us__link),
+:global(.vtex-store-link-0-x-label--about-us__link-secondary),
+:global(.vtex-store-link-0-x-label--reseller-buettner__container-link) {
+  font: 1.125rem/1.5rem 'Open Sans Bold', sans-serif;
+}
+
+:global(.vtex-store-components-3-x-imageElement--vertical-banners__container-banner),
+:global(.vtex-store-components-3-x-imageElement--institucional-banners__image),
+:global(.vtex-store-components-3-x-imageElement--departaments-container__image) {
+  border-radius: 24px;
+}
+
+:global(.vtex-store-components-3-x-imageElement--institucional-banners__image) {
+  width: fit-content;
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-store-link-0-x-link--vertical-banners__container-button) {
+    height: 40px;
+  }
+
+  :global(.vtex-store-link-0-x-label--vertical-banners__container-button) {
+    font-size: 1rem;
+  }
+}

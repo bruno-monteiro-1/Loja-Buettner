@@ -1,0 +1,59 @@
+.flexRowContent--departaments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.flexRow--departaments-container :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--departaments-container {
+  padding-inline: 16px;
+  margin-bottom: 60px;
+}
+
+:global(.vtex-slider-layout-0-x-sliderTrack--departaments-container__slider) {
+  column-gap: 16px;
+}
+
+.flexRowContent--departaments-container__wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRowContent--departaments-container .stretchChildrenWidth,
+.flexRowContent--departaments-container__wrapper .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+@media (max-width: 780px) {
+  .flexRow--departaments-container {
+    margin-bottom: 100px;
+  }
+
+  .flexRow--departaments-container
+    :global(.vtex-slider-layout-0-x-paginationDotsContainer) {
+    bottom: -36px;
+  }
+}
+
+@media (max-width: 980px) {
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--departaments-container__slider)
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow),
+  :global(.vtex-slider-layout-0-x-sliderLayoutContainer--departaments-container__slider)
+    :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+    transform: translateY(-80px);
+  }
+
+  .flexRowContent--departaments-container {
+    gap: 32px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow--departaments-container {
+    padding-inline: 32px;
+    margin-bottom: 120px;
+  }
+}

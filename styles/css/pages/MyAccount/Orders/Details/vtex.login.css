@@ -1,0 +1,347 @@
+:global(.vtex-account__order-details) > div > div time,
+:global(.vtex-account__order-details) > div > div time span {
+  color: #363c4a;
+}
+
+:global(.vtex-account__order-details) > div > div time {
+  font: 18px/32px 'Open Sans SemiBold', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-account__order-details) > div > div time div,
+:global(.vtex-account__order-details)
+  .w-100
+  > div
+  > div
+  + div
+  > div
+  > span:last-child {
+  margin-left: 24px;
+  margin-top: 0;
+  background: #d4d8e1;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.vtex-account__order-details) > div > div time span {
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+  text-transform: uppercase;
+}
+
+:global(.vtex-account__order-details) > div > div + div {
+  padding: 0 30px 0 0;
+}
+
+:global(.vtex-account__order-details) > div > div + div li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+:global(.vtex-account__order-details) > div > div + div li:first-child svg {
+  display: none;
+}
+
+:global(.vtex-account__order-details) > div > div + div li a::before {
+  height: 16px;
+}
+
+:global(.vtex-account__order-details)
+  > div
+  > div
+  + div
+  li:first-child
+  a::before {
+  content: url('assets/icons/Reload.svg');
+}
+
+:global(.vtex-account__order-details)
+  > div
+  > div
+  + div
+  li:last-child
+  a::before {
+  content: url('assets/icons/CircleClose.svg');
+}
+
+:global(.vtex-account__order-details) > div > div + div li:first-child a > span,
+:global(.vtex-account__order-details) > div > div + div li:last-child a > span {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  margin-left: 8px !important;
+}
+
+:global(.vtex-account__order-details)
+  > div
+  > div
+  + div
+  li:first-child
+  a
+  > span {
+  color: #3ead77;
+}
+
+:global(.vtex-account__order-details) > div > div + div li:last-child a > span {
+  color: #ff3e3e;
+}
+
+:global(.vtex-account__order-details) > div > div:nth-child(n + 3),
+:global(.vtex-account__order-details) article {
+  border-radius: 24px;
+  background: #f2f2f2;
+  border: 1px solid #d4d8e1;
+  padding: 32px;
+}
+
+:global(.vtex-account__order-details) div + section {
+  display: flex;
+  margin: 44px 0 0;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+:global(.vtex-account__order-details) div + section h3,
+:global(.vtex-account__order-details) div + section .lh-copy {
+  color: #363c4a;
+}
+
+:global(.vtex-account__order-details) div + section h3 {
+  font: 1.375rem/1.875rem 'Open Sans Bold', sans-serif;
+  display: block;
+  margin: 0 0 24px;
+  letter-spacing: unset;
+  text-transform: capitalize;
+}
+
+:global(.vtex-account__order-details) div + section,
+:global(.vtex-account__order-details) div + section .f6,
+:global(.vtex-account__order-details) div + section .lh-copy {
+  font: 16px/24px 'Open Sans Regular', sans-serif !important;
+  color: #363c4a;
+}
+
+:global(.vtex-account__order-details) div + section strong {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-account__order-details) article {
+  width: fit-content;
+  display: flex;
+  flex: 1 1;
+  min-width: 250px;
+  margin: 0;
+}
+
+:global(.vtex-account__order-details) article:nth-child(2) section div {
+  margin-bottom: 8px;
+}
+
+:global(.vtex-account__order-details) article:nth-child(2) section div,
+:global(.vtex-account__order-details) article:nth-child(2) section div div {
+  display: flex;
+  flex-direction: column;
+}
+
+:global(.vtex-account__order-details) article section {
+  width: 100%;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+:global(.vtex-account__order-details) section + :global(.myo-progress-bar) {
+  height: 100%;
+  padding: 32px 46px 64px !important;
+  margin-block: 64px;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__title-font) {
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__title-font) span {
+  display: block;
+  width: 100%;
+  font: 1.375rem/1.875rem 'Open Sans Bold', sans-serif;
+  text-align: center;
+  letter-spacing: unset;
+}
+
+:global(.myo-progress-bar__title-font) + div {
+  padding: 0;
+}
+
+:global(.myo-progress-bar),
+:global(.myo-progress-bar) > div + div {
+  height: 84px;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__line.b--success) {
+  height: 4px;
+  border-color: #3ead77;
+}
+
+:global(.myo-progress-bar__circle.bg-muted-3) {
+  border: none;
+  background: #d4d8e1;
+}
+
+:global(.myo-progress-bar__circle.bg-success),
+:global(.myo-progress-bar) :global(.myo-progress-bar__ma-inner-circle) {
+  height: 24px;
+  width: 24px;
+  border: none;
+  background: none;
+  color: transparent;
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__line) {
+  height: fit-content;
+  border-width: 4px;
+  border-radius: 2px;
+  border-color: #d4d8e1;
+}
+
+:global(.myo-progress-bar__circle.bg-success)::before {
+  height: 24px;
+  content: url('assets/icons/Checkmark.svg');
+}
+
+:global(.myo-progress-bar) :global(.myo-progress-bar__ma-inner-circle)::before {
+  content: url('assets/icons/TimerSharp.svg');
+}
+
+:global(.myo-progress-bar__subtitle) span,
+:global(.myo-progress-bar) + div > div > div > h2,
+:global(.myo-product-name),
+:global(.myo-seller-name),
+:global(.myo-product-price),
+:global(.myo-product-quantity),
+:global(.myo-product-total-price) {
+  color: #363c4a;
+}
+
+:global(.myo-progress-bar__subtitle) {
+  padding: 0;
+  margin-top: 12px;
+}
+
+:global(.myo-progress-bar__circle.bg-muted-3)
+  :global(.myo-progress-bar__subtitle) {
+  margin-top: 40px;
+  padding: 0;
+}
+
+:global(.myo-progress-bar__ma-inner-circle.c-success) + div,
+:global(.myo-progress-bar__circle.bg-muted-3)
+  :global(.myo-progress-bar__subtitle) {
+  margin-top: 36px;
+}
+
+:global(.myo-progress-bar__circle.bg-muted-3)
+  :global(.myo-progress-bar__subtitle)
+  span {
+  color: #d4d8e1;
+}
+
+:global(.vtex-my-orders-app-3-x-productImage) {
+  width: 64px;
+  margin: 0 8px 0 24px;
+}
+
+:global(.myo-progress-bar__subtitle) span {
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.myo-progress-bar) + div > div > div > h2 {
+  margin: 0 0 24px;
+  font: 1.375rem/1.875rem 'Open Sans Bold', sans-serif;
+}
+
+:global(.myo-progress-bar) + div > div > div + div span:first-child {
+  font: 18px/32px 'Open Sans SemiBold', sans-serif;
+  display: inline-block;
+  margin-right: 24px;
+  color: #363c4a;
+}
+
+:global(.myo-progress-bar) + div > div > div + div span:last-child {
+  background: #d4d8e1;
+  border-radius: 6px;
+  color: #363c4a;
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+  margin: 0;
+  padding-inline: 16px;
+  text-transform: uppercase;
+}
+
+:global(.myo-progress-bar) + .w-100 > div {
+  padding-bottom: 64px;
+  border-bottom: 1px solid #d4d8e1;
+}
+
+:global(.myo-product-table) thread > .tl > th {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+.pa0.w-20.pl2.pr2.pb3 {
+  text-align: center;
+}
+
+:global(.myo-product-table) {
+  margin: 0;
+}
+
+:global(.myo-product-name) {
+  font: 0.875rem/1.188rem 'Open Sans SemiBold', sans-serif;
+  display: block;
+  margin: 10px 0 8px;
+  text-decoration: none;
+}
+
+:global(.myo-seller-name),
+:global(.myo-product-price),
+:global(.myo-product-quantity),
+:global(.myo-product-total-price) {
+  font: 0.75rem/1rem 'Open Sans Regular', sans-serif;
+}
+
+:global(.myo-product-price),
+:global(.myo-product-quantity),
+:global(.myo-product-total-price) {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0;
+  font: 0.75rem/1rem 'Open Sans Regular', sans-serif;
+}
+
+@media (max-width: 768px) {
+  :global(.vtex-account__order-details) section + :global(.myo-progress-bar) {
+    padding: 32px 46px !important;
+  }
+
+  :global(.myo-progress-bar) :global(.myo-progress-bar__mobile-text) {
+    margin-bottom: 16px;
+    padding: 0;
+  }
+
+  :global(.myo-progress-bar) :global(.myo-progress-bar__mobile-text) > div {
+    flex-direction: column;
+  }
+
+  :global(.myo-progress-bar__mobile-text) .c-link {
+    font: 16px/30px 'Open Sans SemiBold', sans-serif;
+    color: #363c4a;
+  }
+}
+
+@media (min-width: 768px) {
+  :global(.vtex-account__order-details) > div > div {
+    padding: 0 0 0 36px;
+  }
+}

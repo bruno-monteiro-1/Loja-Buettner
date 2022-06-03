@@ -1,0 +1,137 @@
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer) {
+  padding-inline: 0;
+  margin-right: 0;
+}
+
+:global(.vtex-pageHeader__subtitle) {
+  margin: 8px 0 16px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer) > div {
+  background: none;
+}
+:global(.vtex-account) .styleguide__box {
+  border-radius: 24px;
+  background: #f2f2f2;
+  border: 1px solid #d4d8e1;
+  padding: 40px 32px 54px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.layout__container) {
+  padding-inline: 0;
+  margin-top: 48px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.styleguide__pageBlock):nth-child(n + 2) {
+  margin-top: 80px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.styleguide__pageBlock)
+  > div,
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.styleguide__pageBlock_title) {
+  margin: 0;
+  font: 28px/38px 'Open Sans Bold', sans-serif;
+  color: #363c4a;
+  text-transform: capitalize;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.styleguide__pageBlock_title)
+  + div,
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-pageHeader__subtitle) {
+  width: 100%;
+  font: 18px/32px 'Open Sans', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.styleguide__pageBlock_title)
+  + div {
+  margin: 8px 0 32px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-input__help-text) {
+  font-size: 0;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-input__help-text)::before {
+  content: 'Insira o CNPJ que será anexado aos pedidos desse centro de custo.';
+  font: italic 0.875rem/1.188rem 'Open Sans', sans-serif;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__postalCode-forgottenURL) {
+  padding: 0;
+}
+
+:global(.vtex-address-form__postalCode) a {
+  font: italic 0.875rem/1.188rem 'Open Sans', sans-serif;
+  text-decoration: underline;
+  margin-top: 4px;
+}
+
+:global(.vtex-address-form__postalCode) a,
+:global(.vtex-address-form__postalCode) a:hover {
+  color: #ff3e3e;
+}
+
+:global(.vtex-address-form__postalCode) a span,
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form-4-x-input)
+  + span {
+  display: none;
+}
+
+:global(.vtex-address-form__postalCode) a,
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-input__help-text)::before {
+  padding-left: 16px;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--small),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--mini),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--large),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--xlarge) {
+  padding: 0;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-b2b-organizations-1-x-newOrganizationInput) {
+  margin-bottom: 0;
+}
+
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-b2b-organizations-1-x-newOrganizationInput)
+  + :global(.vtex-b2b-organizations-1-x-newOrganizationInput),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--small),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--mini),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--large),
+:global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+  :global(.vtex-address-form__field--xlarge) {
+  margin-top: 24px;
+}
+
+@media (max-width: 780px) {
+  :global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+    :global(.styleguide__pageBlock)
+    > div,
+  :global(.vtex-b2b-organizations-1-x-newOrganizationContainer)
+    :global(.styleguide__pageBlock_title) {
+    font-size: 1.375rem;
+    line-height: 28px;
+  }
+}

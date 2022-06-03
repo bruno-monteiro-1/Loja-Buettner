@@ -1,0 +1,100 @@
+.newsletterForm--form {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.nameInputContainer--newsletter-container :global(.vtex-input),
+.emailInputContainer--newsletter-container :global(.vtex-input) {
+  height: min-content;
+  display: block;
+}
+
+.nameInputContainer--newsletter-container :global(.vtex-input-prefix__group),
+.emailInputContainer--newsletter-container :global(.vtex-input-prefix__group) {
+  height: 48px;
+  border-radius: 12px;
+}
+
+.vtex-input-prefix__group.flex.flex-row.items-stretch.overflow-hidden {
+  border-color: #d4d8e1;
+}
+
+.emailInputContainer--newsletter-container :global(.vtex-styleguide-9-x-input),
+.nameInputContainer--newsletter-container :global(.vtex-styleguide-9-x-input) {
+  color: #747a87;
+  font: 500 0.875rem 'Open Sans Regular', sans-serif;
+}
+
+.emailInputContainer--newsletter-container
+  :global(.vtex-styleguide-9-x-input)::placeholder,
+.nameInputContainer--newsletter-container
+  :global(.vtex-styleguide-9-x-input)::placeholder {
+  opacity: 1;
+}
+
+.formSubmitContainer--button :global(.vtex-button),
+.formSubmitContainer--button {
+  height: 100%;
+  max-height: 48px;
+  min-width: 160px;
+}
+
+.formSubmitContainer--button :global(.vtex-button) {
+  background-color: #363c4a;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.formSubmitContainer--button :global(.vtex-button):hover {
+  opacity: 0.9;
+}
+
+.formSubmitContainer--button
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font-size: 0;
+}
+
+.formSubmitContainer--button
+  :global(.vtex-button)
+  :global(.vtex-button__label)::before {
+  content: 'Assinar';
+  font: 1.125rem/1.5rem 'Open Sans SemiBold', sans-serif;
+}
+
+@media (max-width: 780px) {
+  .nameInputContainer--newsletter-container,
+  .emailInputContainer--newsletter-container,
+  .formSubmitContainer--button,
+  .formSubmitContainer--button :global(.vtex-button) {
+    width: 100%;
+  }
+
+  .formSubmitContainer--button :global(.vtex-button) {
+    max-width: 145px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 980px) {
+  .nameInputContainer--newsletter-container,
+  .emailInputContainer--newsletter-container {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 1375px) {
+  .emailInputContainer--newsletter-container
+    :global(.vtex-styleguide-9-x-input),
+  .nameInputContainer--newsletter-container
+    :global(.vtex-styleguide-9-x-input) {
+    min-width: 280px;
+  }
+}

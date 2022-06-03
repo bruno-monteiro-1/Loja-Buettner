@@ -1,0 +1,212 @@
+.contentAlwaysWithOptions {
+  min-height: min-content;
+  flex-direction: column-reverse;
+}
+
+.content--emailAndPassword {
+  max-width: 100%;
+}
+
+.flexRow--authentication-session :global(.vtex-flex-layout-0-x-flexColChild) {
+  height: min-content !important;
+}
+
+.emailVerification .formFooter + .formLinkContainer {
+  display: none;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+  height: auto;
+  border: 1px solid #d4d8e1;
+  border-radius: 12px;
+}
+
+.inputContainer :global(.vtex-input) {
+  display: block;
+}
+
+.inputContainerAccessCode,
+.inputContainerEmail {
+  margin-bottom: 16px;
+}
+
+.inputContainerPassword {
+  padding: 0;
+}
+
+.inputContainer input {
+  height: 48px;
+  width: 100%;
+  padding-left: 16px;
+  color: #363c4a;
+  font: 500 0.875rem 'Open Sans Regular', sans-serif;
+}
+
+.forgotPasswordLink {
+  color: #363c4a;
+  font: italic 0.875rem 'Open Sans Regular', sans-serif;
+}
+
+.sendButton :global(.vtex-button) {
+  height: 48px;
+  width: 100%;
+  background: #ff3e3e;
+  text-align: center;
+  border: none;
+  transition: 0.5s all;
+  border-radius: 12px;
+}
+
+.sendButton :global(.vtex-button):hover {
+  opacity: 0.9;
+}
+
+.sendButton :global(.vtex-button):active {
+  filter: brightness(0.9);
+}
+
+.sendButton :global(.vtex-button) span {
+  font: 1.125rem/1.5rem 'Open Sans Bold', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.formFooter {
+  border: none;
+  margin: 32px 0 40px;
+  padding: 0;
+}
+
+.vtex-flex-layout-0-x-flexColChild.vtex-flex-layout-0-x-flexColChild--form-container.pb0 {
+  height: min-content;
+}
+
+@media (max-width: 780px) {
+  .inputContainerAccessCode,
+  .inputContainerEmail {
+    margin-bottom: 8px;
+  }
+
+  .formFooter {
+    margin: 16px 0 48px;
+  }
+}
+
+:global(html) {
+  scroll-behavior: smooth;
+}
+
+:global(.vtex-toast) {
+  background: #363c4a;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  > :global(div)
+  > :global(.vtex-flex-layout-0-x-flexRow)
+  > :global(.vtex-flex-layout-0-x-flexRowContent) {
+  border-bottom: 1px solid #d4d8e1;
+  padding: 20px 16px 24px;
+}
+
+:global(.vtex-product-list-0-x-productBrandName) {
+  display: none;
+}
+
+:global(.vtex-mega-menu-2-x-submenuItem--isClosed)
+  > :global(.vtex-mega-menu-2-x-styledLinkContainer--mega-menu)
+  :global(.vtex-mega-menu-2-x-styledLinkText--mega-menu) {
+  font-family: 'Open Sans Bold';
+  font-size: 1rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--my-account) > a,
+:global(.vtex-flex-layout-0-x-flexColChild--overlay-container) > a {
+  justify-content: start;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-flex-layout-0-x-flexRowContent)
+  > div:last-child
+  > :global(.vtex-flex-layout-0-x-flexCol) {
+  display: grid !important;
+  grid-template-areas: 'name name name' 'quantity unset price';
+  width: 100%;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-flex-layout-0-x-flexRowContent)
+  > div:last-child
+  > div
+  > div:first-child {
+  grid-area: name;
+  margin: 0;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-flex-layout-0-x-flexColChild):nth-child(4)
+  :global(.vtex-flex-layout-0-x-flexRow) {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-flex-layout-0-x-flexCol)
+  :global(.vtex-flex-layout-0-x-flexColChild):nth-child(4)
+  :global(.vtex-flex-layout-0-x-flexRowContent) {
+  justify-content: end;
+}
+
+:global(.vtex-minicart-2-x-minicartProductListContainer)
+  :global(.vtex-product-list-0-x-unitPriceContainer) {
+  display: none;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild) hr {
+  margin: 0;
+}
+
+:global(.vtex-button):hover {
+  background: none;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText--product-description__content)
+  a {
+  color: inherit;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText--product-description__content)
+  strong {
+  color: #363c4a;
+}
+
+:global(.vtex__icon-spinner) {
+  color: #fff;
+}
+
+:global(.vtex-breadcrumb-1-x-caretIcon) use {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-productDescriptionText) hr {
+  color: #727273;
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex__icon-caret-down) path,
+  :global(.vtex__icon-caret-up) path {
+    display: none;
+  }
+
+  :global(.vtex-mega-menu-2-x-submenuContainerVertical--mega-menu) > h3 {
+    padding: 16px 24px;
+    font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+    text-transform: uppercase;
+  }
+
+  :global(.vtex-mega-menu-2-x-submenuListVertical)
+    > :global(.vtex-mega-menu-2-x-seeAllLinkContainer) {
+    display: none;
+  }
+}

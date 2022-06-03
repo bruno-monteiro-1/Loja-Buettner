@@ -1,0 +1,14 @@
+.paragraph--institucional-banners__content {
+  font: 2rem/2.688rem 'Open Sans SemiBold', sans-serif;
+  text-align: center;
+  color: #363c4a;
+  margin: 0 0 80px;
+}
+
+@media (max-width: 780px) {
+  .paragraph--institucional-banners__content {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+    margin: 0 0 40px;
+  }
+}

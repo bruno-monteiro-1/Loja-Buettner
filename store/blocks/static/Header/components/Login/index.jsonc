@@ -1,0 +1,11 @@
+{
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOG-IN",
+      "accessCodeTitle": "Acess Code LOG-IN",
+      "emailPlaceholder": "e-mail",
+      "showIconProfile": true,
+      "hasGoogleOneTap": true
+    }
+  }
+}

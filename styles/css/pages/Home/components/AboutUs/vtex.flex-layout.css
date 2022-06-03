@@ -1,0 +1,39 @@
+.flexRow--about-us__container {
+  padding-inline: 16px;
+}
+
+.flexRow--about-us__container :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--about-us__container {
+  flex-direction: column;
+}
+
+.flexRowContent--about-us__container .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+.flexRowContent--about-us__link-cta {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.flexRowContent--about-us__link-cta .stretchChildrenWidth {
+  max-width: 428px;
+}
+
+@media (min-width: 1025px) {
+  .flexRow--about-us__container {
+    padding-inline: 32px;
+  }
+
+  .flexRowContent--about-us__link-cta {
+    margin-top: 80px;
+    gap: 64px;
+  }
+}

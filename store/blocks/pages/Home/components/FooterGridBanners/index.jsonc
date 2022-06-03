@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#footer-grid-banners-container": {
+    "title": "Sessão de Banners do Footer",
+    "children": [
+      "image#footer-grid-banners",
+      "image#footer-grid-banners-mobile"
+    ],
+    "props": {
+      "blockClass": "footer-grid-banners__container"
+    }
+  },
+  "image#footer-grid-banners": {
+    "title": "Banner - Desktop",
+    "props": {
+      "src": "",
+      "alt": "Banner do Footer",
+      "title": "Banner do Footer"
+    }
+  },
+  "image#footer-grid-banners-mobile": {
+    "title": "Banner - Mobile",
+    "props": {
+      "src": "",
+      "alt": "Banner do Footer",
+      "title": "Banner do Footer"
+    }
+  }
+}

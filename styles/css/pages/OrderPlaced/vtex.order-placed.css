@@ -1,0 +1,135 @@
+.orderPlacedWrapper {
+  padding-inline: 32px;
+}
+
+.orderPlacedHeader,
+.orderPlacedMainWrapper {
+  width: 100%;
+  max-width: 1464px;
+  margin: 0 auto;
+}
+
+.confirmationTitle,
+.confirmationMessage,
+.noticeListItem,
+.orderNumber,
+.orderDatetime,
+.orderSoldBy,
+.orderSeller,
+.customerInfoListName,
+.paymentGroup,
+.totalListItem,
+.totalListItem--Items {
+  color: #363c4a;
+}
+
+.confirmationTitle {
+  margin-top: 32px;
+  font: 2rem/2.875rem 'Open Sans ExtraBold', sans-serif;
+}
+
+.confirmationMessage {
+  margin: 12px 0 0;
+  font: 16px/20px 'Open Sans Regular', sans-serif;
+}
+
+.noticesList {
+  width: 95%;
+  max-width: 1168px;
+  background: #f2f2f2;
+  border: 1px solid #d4d8e1;
+  border-radius: 24px;
+  padding: 32px;
+  margin: 0 auto;
+}
+
+.noticeListItem,
+.orderDatetime,
+.orderSoldBy {
+  font: 16px/20px 'Open Sans Regular', sans-serif;
+}
+
+.noticeListItem,
+.section {
+  border-color: #d4d8e1;
+}
+
+.noticeListItem:first-child {
+  padding-top: 0;
+}
+
+.noticeListItem:last-child {
+  padding-bottom: 0;
+}
+
+.orderWrapper {
+  max-width: 1164px;
+  margin: 0 auto;
+  font-family: 'Open Sans Regular', sans-serif;
+}
+
+.orderNumber {
+  font: 2rem/2.5rem 'Open Sans Bold', sans-serif;
+}
+
+.orderDatetime {
+  display: block;
+  margin-block: 8px;
+}
+
+.customerInfoListName,
+.paymentGroup,
+.orderSeller {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+.packageDeliveryTitle {
+  font: 1.625rem/2rem 'Open Sans Bold', sans-serif;
+}
+
+.productWrapper {
+  align-items: center;
+}
+
+.productName,
+.productPrice {
+  font: 1rem/1.375rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+.totalListItem {
+  font: 2rem/2.5rem 'Open Sans Bold', sans-serif;
+}
+
+.updateOrderButton :global(.vtex-button),
+.myOrdersButton :global(.vtex-button) {
+  border-radius: 12px;
+}
+
+.updateOrderButton :global(.vtex-button) {
+  background-color: #363c4a;
+  border: none;
+  color: #fff;
+}
+
+.myOrdersButton :global(.vtex-button) {
+  border-radius: 12px;
+  color: #363c4a;
+  background: transparent;
+  border: 1px solid #363c4a;
+}
+
+.productInfoColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 980px) {
+  .orderPlacedWrapper {
+    padding-inline: 16px;
+  }
+
+  .confirmationTitle {
+    line-height: 36px;
+  }
+}

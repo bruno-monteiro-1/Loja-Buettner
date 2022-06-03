@@ -1,0 +1,96 @@
+{
+  "store.custom#how-buy": {
+    "blocks": ["flex-layout.row#main-container-how-buy"]
+  },
+  "flex-layout.row#main-container-how-buy": {
+    "title": "Container Principal",
+    "children": [
+      "rich-text#title-page-how-buy",
+      "flex-layout.row#content-container-how-buy",
+      "flex-layout.row#help-section-how-buy"
+    ],
+    "props": {
+      "blockClass": "custom-page__how-buy"
+    }
+  },
+
+  "rich-text#title-page-how-buy": {
+    "title": "Título da Página",
+    "props": {
+      "blockClass": "custom-page__title",
+      "text": "# Como Comprar"
+    }
+  },
+
+  "flex-layout.row#content-container-how-buy": {
+    "title": "Container de Conteúdo",
+    "children": [
+      "flex-layout.row#main-container-first-section-how-buy",
+      "flex-layout.row#main-container-second-section-how-buy",
+      "flex-layout.row#main-container-third-section-how-buy",
+      "flex-layout.row#main-container-fourth-section-how-buy",
+      "flex-layout.row#main-container-fifth-section-how-buy",
+      "rich-text#final-section-message"
+    ],
+    "props": {
+      "blockClass": "how-buy-content"
+    }
+  },
+
+  "flex-layout.row#help-section-how-buy": {
+    "title": "Sessão de Ajuda",
+    "children": [
+      "rich-text#help-section-title",
+      "rich-text#help-section-content",
+      "flex-layout.row#help-section-social-field"
+    ],
+    "props": {
+      "blockClass": "help-section__container"
+    }
+  },
+  "rich-text#help-section-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "help-section__title",
+      "text": "### Precisa de Ajuda?",
+      "textAlignment": "CENTER"
+    }
+  },
+  "rich-text#help-section-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "help-section__content",
+      "text": "Veja nossa página especial “Como Comprar” ou acesse um dos nossos canais de atendimento.",
+      "textAlignment": "CENTER"
+    }
+  },
+  "flex-layout.row#help-section-social-field": {
+    "title": "Sessão de Redes Sociais",
+    "children": [
+      "image#help-section-first-image",
+      "image#help-section-second-image"
+    ],
+    "props": {
+      "blockClass": "help-section__social-field"
+    }
+  },
+
+  "image#help-section-first-image": {
+    "title": "Primeira Imagem",
+    "props": {
+      "blockClass": "help-section__social-image",
+      "src": "assets/icons/login/whatsapp.svg",
+      "title": "Imagem da Sessão de Ajuda",
+      "alt": "Imagem da Sessão de Ajuda"
+    }
+  },
+  "image#help-section-second-image": {
+    "title": "Segunda Imagem",
+    "props": {
+      "blockClass": "help-section__social-image",
+      "src": "assets/icons/login/phone.svg",
+      "title": "Imagem da Sessão de Ajuda",
+      "alt": "Imagem da Sessão de Ajuda"
+    }
+  }
+}

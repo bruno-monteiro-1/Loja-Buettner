@@ -1,0 +1,5 @@
+{
+  "store.custom#institutional": {
+    "blocks": ["store.custom#privacy"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#institucional__text--footer": {
+    "title": "Links Institucional",
+    "props": {
+      "blockClass": "institucional__text--footer"
+    },
+    "children": [
+      "rich-text#text-institucional-title",
+      "link#link-institucional1",
+      "link#link-institucional2",
+      "link#link-institucional3",
+      "link#link-institucional4"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+.flexRow--notification-bar {
+  background-color: var(--gray-600);
+  font: normal 0.875rem 'Open Sans';
+  padding: 0 16px;
+}
+
+.flexRow--notification-bar :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRow--notification-bar__content {
+  max-width: 1464px;
+  margin: 0 auto;
+}
+@media (max-width: 580px) {
+  .flexRow--notification-bar {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .flexRowContent--notification-bar__content .stretchChildrenWidth:first-child {
+    width: 100% !important;
+  }
+
+  .flexRowContent--notification-bar__content .stretchChildrenWidth:last-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow--notification-bar {
+    padding: 0 32px;
+  }
+}

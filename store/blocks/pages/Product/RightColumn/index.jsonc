@@ -1,0 +1,111 @@
+{
+  "flex-layout.col#product-container-right": {
+    "title": "Container da Direita - Informações do Produto",
+    "children": [
+      "flex-layout.row#product-name",
+      "flex-layout.row#product-container-price",
+      "product-separator",
+      "flex-layout.col#sku-selector-container",
+      "flex-layout.row#cta-container",
+      "product-separator",
+      "flex-layout.row#shipping-simulator-container"
+    ]
+  },
+
+  "flex-layout.row#product-name": {
+    "children": ["vtex.store-components:product-name"],
+    "props": {
+      "blockClass": "product-name__container"
+    }
+  },
+
+  "vtex.store-components:product-name": {
+    "title": "Nome",
+    "props": {
+      "blockClass": "product-name"
+    }
+  },
+
+  "flex-layout.row#product-container-price": {
+    "title": "Preços",
+    "children": ["product-selling-price", "add-to-list-btn"],
+    "props": {
+      "blockClass": "product-price__container"
+    }
+  },
+
+  "product-selling-price": {
+    "props": {
+      "alwaysShow": true
+    }
+  },
+
+  "flex-layout.col#sku-selector-container": {
+    "children": [
+      "rich-text#sku-selector-title",
+      "sku-selector#product-page",
+      "product-identifier.product"
+    ],
+    "props": {
+      "blockClass": "sku-selector__container"
+    }
+  },
+
+  "rich-text#sku-selector-title": {
+    "props": {
+      "blockClass": "sku-selector__title",
+      "text": "Escolha de acordo com sua preferência"
+    }
+  },
+
+  "sku-selector#product-page": {
+    "title": "Seletor de SKU",
+    "props": {
+      "blockClass": "sku-selector-pdp",
+      "thumbnailImage": "detalhe",
+      "displayMode": "default",
+      "visibility": "always",
+      "initialSelection": "empty",
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "hideImpossibleCombinations": false,
+      "disableUnavailableSelectOptions": true
+    }
+  },
+
+  "flex-layout.row#cta-container": {
+    "children": ["flex-layout.row#product-container__buttons"],
+    "props": {
+      "blockClass": "product-container__cta"
+    }
+  },
+
+  "flex-layout.row#product-container__buttons": {
+    "title": "Principais Funções",
+    "children": ["flex-layout.col#quantity-product", "add-to-cart-button"],
+    "props": {
+      "blockClass": "product-container__buttons"
+    }
+  },
+
+  "flex-layout.col#quantity-product": {
+    "title": "Quantidade do Produto",
+    "children": ["product-quantity"]
+  },
+
+  "add-to-cart-button": {
+    "title": "Botão de Compra",
+    "props": {
+      "addToCartFeedback": "customEvent",
+      "customPixelEventId": "add-to-cart-event"
+    }
+  },
+
+  "flex-layout.row#shipping-simulator-container": {
+    "title": "Simulador de Frete",
+    "children": ["shipping-simulator"],
+    "props": {
+      "blockClass": "shipping-simulator__container"
+    }
+  }
+}

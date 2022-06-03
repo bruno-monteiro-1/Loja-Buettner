@@ -1,0 +1,18 @@
+:global(.vtex-store__template),
+:global(.vtex-modal-layout-0-x-container),
+:global(.vtex-minicart-2-x-drawer),
+:global(.vtex-telemarketing-2-x-portalContainer),
+:global(.vtex-login-2-x-portalContainer) {
+  --red: #ff3e3e;
+  --gray-600: #363c4a;
+  --base: #fff;
+}
+
+:global(.vtex-overlay-layout-0-x-backdrop) {
+  background: rgba(0, 0, 0, 0.3);
+  transform: translate(-100vw, 48.3vw);
+}
+
+:global(.vtex-overlay-layout-0-x-container) {
+  padding: 32px;
+}

@@ -1,0 +1,20 @@
+.container--promotion-bar__content {
+  height: 32px;
+  background-color: #747a87;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraph--promotion-bar__content {
+  margin: 0;
+  font: 12px 'Open Sans Regular', sans-serif;
+  color: #fff;
+}
+
+.strong--promotion-bar__content {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Open Sans Bold', sans-serif;
+}

@@ -1,0 +1,18 @@
+.logoutButton {
+  width: 100%;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+}
+
+.logoutButton img {
+  margin-right: 8px;
+}
+
+.logoutButton span {
+  color: #363c4a;
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+}

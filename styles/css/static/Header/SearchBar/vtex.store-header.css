@@ -1,0 +1,23 @@
+:global(.vtex-sticky-layout-0-x-container)
+  :global(.vtex-store-components-3-x-searchBarContainer) {
+  width: 100%;
+  padding: 0;
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+    margin-top: 16px;
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 1025px) {
+  :global(.vtex-sticky-layout-0-x-container)
+    :global(.vtex-store-components-3-x-searchBarContainer) {
+    height: 96px;
+    width: 43vw;
+    max-width: 800px;
+    min-width: 256px;
+  }
+}

@@ -1,0 +1,27 @@
+.notificationBarContainer--notification-bar__content--item--phrase {
+  background: none;
+  display: flex;
+  align-items: center;
+  height: min-content;
+}
+
+.notificationBarInner--notification-bar__content--item--phrase {
+  height: 40px;
+  min-height: auto;
+  justify-content: start;
+  font: 0.875rem/1.188rem 'Open Sans Regular', sans-serif;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .notificationBarContainer--notification-bar__content--item--phrase {
+    justify-content: center;
+  }
+
+  .notificationBarInner--notification-bar__content--item--phrase {
+    height: 32px;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+}

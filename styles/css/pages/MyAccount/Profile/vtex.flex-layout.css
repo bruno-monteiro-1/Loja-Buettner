@@ -1,0 +1,105 @@
+:global(.vtex-my-account-1-x-userInfo) {
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+:global(.vtex-my-account-1-x-userGreeting) {
+  font: 1rem/1.375rem 'Open Sans Regular', sans-serif;
+  margin: 0;
+  color: #747a87;
+}
+
+:global(.vtex-my-account-1-x-userName) {
+  font: 20px/27px 'Open Sans Regular', sans-serif;
+}
+
+:global(.vtex-pageHeader__title),
+:global(.vtex-my-account-1-x-userName) {
+  color: #363c4a;
+}
+
+:global(.vtex-pageHeader__title) {
+  font: 2rem/2.688rem 'Open Sans Bold', sans-serif;
+}
+
+:global(.vtex-account)
+  :global(.vtex-pageHeader-link__container)
+  :global(.vtex-button) {
+  height: 26px;
+  background: #d4d8e1;
+  margin: 0 0 24px;
+  padding-inline: 16px;
+  border-radius: 6px;
+}
+
+:global(.vtex-pageHeader__container) {
+  padding: 140px 0 16px;
+  border-bottom: 1px solid #d4d8e1;
+}
+
+:global(.vtex-my-account-1-x-profileBoxContainer) {
+  padding-bottom: 0;
+}
+
+:global(.vtex-account__page-body) {
+  padding: 0;
+  margin-top: 40px;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody) {
+  padding: 40px;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter) {
+  padding: 0 40px 40px;
+}
+
+:global(.vtex-my-account-1-x-dataEntryLabel) {
+  margin: 0;
+}
+
+:global(.vtex-my-account-1-x-newsletterContainerTitle),
+:global(.vtex-my-account-1-x-newsletterContainerMessage),
+:global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-dataEntryChildren) {
+  font: 18px/32px 'Open Sans Regular', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter) :global(.vtex-button) {
+  border-radius: 6px;
+  background: #d4d8e1;
+}
+
+:global(.vtex-my-account-1-x-boxContainerFooter)
+  :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font: 0.75rem/1rem 'Open Sans SemiBold', sans-serif;
+  color: #363c4a;
+}
+
+:global(.vtex-my-account-1-x-dataEntryLabel),
+:global(.vtex-my-account-1-x-newsletterContainerTitle) {
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+:global(.vtex-my-account-1-x-passwordBox)
+  :global(.vtex-checkbox__inner-container) {
+  border-width: 1px;
+}
+
+:global(.vtex-my-account-1-x-passwordBox) :global(.vtex-checkbox__label) {
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  :global(.vtex-my-account-1-x-userInfo) {
+    margin-bottom: 36px;
+  }
+}
+
+@media (max-width: 1025px) {
+  :global(.vtex-pageHeader__container) {
+    padding-top: 48px;
+  }
+}

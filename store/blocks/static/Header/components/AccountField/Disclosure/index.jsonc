@@ -1,0 +1,50 @@
+{
+  "challenge-block#account-mobile": {
+    "blocks": [
+      "challenge-content#account-mobile",
+      "challenge-fallback#account-mobile"
+    ],
+    "props": {
+      "blockClass": "challenge--block_mobile"
+    }
+  },
+
+  "challenge-content#account-mobile": {
+    "children": ["disclosure-layout#account-mobile"]
+  },
+
+  "challenge-fallback#account-mobile": {
+    "children": ["account-functionalities-card#1"]
+  },
+
+  "disclosure-layout#account-mobile": {
+    "children": [
+      "disclosure-trigger#account-mobile",
+      "disclosure-content#account-mobile"
+    ],
+    "props": {
+      "blockClass": "disclosure-block__mobile"
+    }
+  },
+
+  "disclosure-trigger#account-mobile": {
+    "children": ["account-functionalities-card#connected-client"],
+    "props": {
+      "blockClass": "disclosure-block__trigger"
+    }
+  },
+
+  "disclosure-content#account-mobile": {
+    "children": ["flex-layout.col#disclosure-account-mobile"]
+  },
+
+  "flex-layout.col#disclosure-account-mobile": {
+    "children": [
+      "account-functionalities-card#profile",
+      "account-functionalities-card#organization",
+      "account-functionalities-card#orders",
+      "account-functionalities-card#wishlist",
+      "logout-button"
+    ]
+  }
+}

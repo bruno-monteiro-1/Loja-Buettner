@@ -1,0 +1,158 @@
+{
+  "flex-layout.row#departaments-grid": {
+    "title": "Sessão de Departamentos",
+    "children": [
+      "rich-text#departaments-grid-title",
+      "slider-layout#departaments-grid"
+    ],
+    "props": {
+      "blockClass": "departaments-container"
+    }
+  },
+
+  "rich-text#departaments-grid-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "departaments-wrapper__title",
+      "text": "Conheça nossas coleções"
+    }
+  },
+
+  "slider-layout#departaments-grid": {
+    "title": "Carrossel",
+    "children": [
+      "flex-layout.row#departament-container-banner-1",
+      "flex-layout.row#departament-container-banner-2",
+      "flex-layout.row#departament-container-banner-3"
+    ],
+    "props": {
+      "blockClass": "departaments-container__slider",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+  "flex-layout.row#departament-container-banner-1": {
+    "title": "Departamento - 1",
+    "children": [
+      "image#departament-container-banner-1",
+      "rich-text#departament-container-banner-1-title",
+      "link#departament-container-cta"
+    ],
+    "props": {
+      "blockClass": "departaments-container__wrapper"
+    }
+  },
+
+  "image#departament-container-banner-1": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "departaments-container__image",
+      "src": "",
+      "title": "Imagem do Departamento",
+      "alt": "Imagem do Departamento"
+    }
+  },
+
+  "rich-text#departament-container-banner-1-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "departaments-container__title",
+      "text": "Cama",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#departament-container-cta": {
+    "title": "Botão Principal",
+    "props": {
+      "blockClass": "departaments-container__cta",
+      "label": "Confira",
+      "href": "/cama"
+    }
+  },
+
+  "flex-layout.row#departament-container-banner-2": {
+    "title": "Departamento - 2",
+    "children": [
+      "image#departament-container-banner-2",
+      "rich-text#departament-container-banner-2-title",
+      "link#departament-container-2-cta"
+    ],
+    "props": {
+      "blockClass": "departaments-container__wrapper"
+    }
+  },
+
+  "image#departament-container-banner-2": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "departaments-container__image",
+      "src": "",
+      "title": "Imagem do Departamento",
+      "alt": "Imagem do Departamento"
+    }
+  },
+
+  "rich-text#departament-container-banner-2-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "departaments-container__title",
+      "text": "Mesa",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#departament-container-2-cta": {
+    "title": "Botão Principal",
+    "props": {
+      "blockClass": "departaments-container__cta",
+      "label": "Confira",
+      "href": "/mesa"
+    }
+  },
+
+  "flex-layout.row#departament-container-banner-3": {
+    "title": "Departamento - 3",
+    "children": [
+      "image#departament-container-banner-3",
+      "rich-text#departament-container-banner-3-title",
+      "link#departament-container-3-cta"
+    ],
+    "props": {
+      "blockClass": "departaments-container__wrapper"
+    }
+  },
+
+  "image#departament-container-banner-3": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "departaments-container__image",
+      "src": "",
+      "title": "Imagem do Departamento",
+      "alt": "Imagem do Departamento"
+    }
+  },
+
+  "rich-text#departament-container-banner-3-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "departaments-container__title",
+      "text": "Banho",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "link#departament-container-3-cta": {
+    "title": "Botão Principal",
+    "props": {
+      "blockClass": "departaments-container__cta",
+      "label": "Confira",
+      "href": "/banho"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "store.custom#swap": {
+    "blocks": ["flex-layout.row#main-container-swap"]
+  },
+
+  "flex-layout.row#main-container-swap": {
+    "title": "Container Principal",
+    "children": [
+      "rich-text#title-page-swap",
+      "side-menu-content-page#swap",
+      "flex-layout.row#content-container-swap"
+    ],
+    "props": {
+      "blockClass": "custom-page__main-container"
+    }
+  },
+
+  "rich-text#title-page-swap": {
+    "title": "Título da Página",
+    "props": {
+      "blockClass": "custom-page__title",
+      "text": "# Institucional"
+    }
+  },
+
+  "side-menu-content-page#swap": {
+    "props": {
+      "pageContext": "Institucional",
+      "active": "Trocas e Devoluções"
+    }
+  },
+
+  "flex-layout.row#content-container-swap": {
+    "title": "Container de Conteúdo",
+    "children": [
+      "rich-text#custom-title-container-swap",
+      "rich-text#custom-data-container-swap"
+    ],
+    "props": {
+      "blockClass": "custom-page__content-container"
+    }
+  },
+
+  "rich-text#custom-title-container-swap": {
+    "title": "Título do Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--title",
+      "text": "## Trocas e Devoluções"
+    }
+  },
+
+  "rich-text#custom-data-container-swap": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--data",
+      "text": "O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. "
+    }
+  }
+}

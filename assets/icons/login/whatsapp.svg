@@ -1,0 +1,12 @@
+<svg id="Componente_5_2" data-name="Componente 5 – 2" xmlns="http://www.w3.org/2000/svg" width="160" height="170" viewBox="0 0 160 170">
+  <rect id="Retângulo_1238" data-name="Retângulo 1238" width="160" height="160" rx="12" transform="translate(0 10)" fill="#d4d8e1"/>
+  <g id="Retângulo_1241" data-name="Retângulo 1241" fill="#f2f2f2" stroke="#d4d8e1" stroke-width="1">
+    <rect width="160" height="160" rx="12" stroke="none"/>
+    <rect x="0.5" y="0.5" width="159" height="159" rx="11.5" fill="none"/>
+  </g>
+  <text id="Whatsapp" transform="translate(80 127)" fill="#363c4a" font-size="16" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="-43.98" y="0">WHATSAPP</tspan></text>
+  <g id="Grupo_1526" data-name="Grupo 1526" transform="translate(-1058 -1289)">
+    <rect id="Retângulo_1243" data-name="Retângulo 1243" width="64" height="64" transform="translate(1106 1317)" fill="none"/>
+    <path id="logo-whatsapp" d="M73.007,38.974a23.855,23.855,0,0,0-37.616,28.7L32,80l12.67-3.308a23.96,23.96,0,0,0,11.421,2.893h.01A23.878,23.878,0,0,0,80,55.8,23.591,23.591,0,0,0,73.007,38.974ZM56.1,75.57h-.009a19.9,19.9,0,0,1-10.11-2.756l-.725-.429-7.518,1.963,2.007-7.3-.472-.75A19.882,19.882,0,1,1,56.1,75.57ZM67,60.764c-.6-.3-3.536-1.736-4.08-1.934s-.946-.3-1.344.3-1.543,1.929-1.891,2.33-.7.446-1.293.148a16.335,16.335,0,0,1-4.8-2.95,17.921,17.921,0,0,1-3.321-4.116c-.348-.595-.037-.917.261-1.213.269-.267.6-.694.9-1.041a4.021,4.021,0,0,0,.6-.992,1.091,1.091,0,0,0-.049-1.04c-.149-.3-1.344-3.223-1.841-4.413-.485-1.159-.977-1-1.344-1.02-.348-.017-.75-.021-1.145-.021a2.2,2.2,0,0,0-1.592.744,6.66,6.66,0,0,0-2.09,4.959c0,2.923,2.143,5.751,2.439,6.148s4.211,6.4,10.2,8.974A34.622,34.622,0,0,0,60,66.874a8.222,8.222,0,0,0,3.761.236c1.147-.17,3.536-1.438,4.032-2.826a4.961,4.961,0,0,0,.348-2.825c-.149-.247-.548-.4-1.145-.694Z" transform="translate(1082 1293.002)" fill="#363c4a" fill-rule="evenodd"/>
+  </g>
+</svg>

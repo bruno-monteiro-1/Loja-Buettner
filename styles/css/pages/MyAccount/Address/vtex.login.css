@@ -1,0 +1,60 @@
+:global(.vtex-account__page)
+  :global(.vtex-my-account-1-x-addressEdit)
+  :global(.address-summary) {
+  padding: 24px;
+  border-radius: 12px;
+  background: #d4d8e1;
+  font: 1.125rem/1.5rem 'Open Sans Regular', sans-serif;
+  color: #747a87;
+}
+
+:global(.vtex-account__page)
+  :global(.vtex-my-account-1-x-addressEdit)
+  :global(.address-summary)
+  span
+  .street,
+:global(.vtex-account__page)
+  :global(.vtex-my-account-1-x-addressEdit)
+  :global(.address-summary)
+  span
+  .number {
+  color: #363c4a;
+}
+
+:global(.vtex-account__page)
+  :global(.vtex-address-form__postalCode)
+  :global(.vtex-input__suffix) {
+  display: none;
+}
+
+:global(.vtex-account__page)
+  :global(.vtex-my-account-1-x-addressEdit)
+  :global(.address-summary)
+  > span:last-child {
+  font: 0.875rem/1.188rem 'Open Sans Italic', sans-serif;
+  text-decoration: underline;
+  color: #ff3e3e;
+}
+
+:global(.vtex-my-account-1-x-addressEdit)
+  :global(.vtex-button)
+  + div
+  > :global(.vtex-button) {
+  background: none;
+  color: #363c4a;
+}
+
+:global(.vtex-my-account-1-x-addressEdit) :global(.vtex-button) + div {
+  width: fit-content;
+  float: right;
+  margin: 0;
+}
+
+:global(.vtex-my-account-1-x-addressEdit)
+  :global(.vtex-button)
+  + div
+  > :global(.vtex-button)
+  :global(.vtex-button__label) {
+  font: 0.875rem/1.188rem 'Open Sans Italic', sans-serif;
+  text-decoration: underline;
+}

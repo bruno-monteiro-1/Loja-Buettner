@@ -1,0 +1,11 @@
+{
+  "header": {
+    "title": "Cabeçalho",
+
+      "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "title": "Cabeçalho",
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  }
+}

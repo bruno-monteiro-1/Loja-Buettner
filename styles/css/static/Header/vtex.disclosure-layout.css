@@ -1,0 +1,25 @@
+:global(.vtex-disclosure-layout-1-x-content) {
+  padding: 0;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger--disclosure--menu__trigger) {
+  background: none;
+  border-width: 1px 0px;
+  border-color: #d4d8e1;
+  border-style: solid;
+  padding: 16px 16px 16px 24px;
+  position: relative;
+}
+
+.trigger--disclosure--menu__trigger::after {
+  content: url('assets/icons/Arrow.svg');
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  transition: all 0.5s;
+}
+
+.trigger--disclosure--menu__trigger--hidden::after {
+  transform: translateY(-50%) rotate(0deg);
+}

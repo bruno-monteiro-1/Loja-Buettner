@@ -1,0 +1,59 @@
+{
+  "store.custom#faq": {
+    "blocks": ["flex-layout.row#main-container-faq"]
+  },
+
+  "flex-layout.row#main-container-faq": {
+    "title": "Container Principal",
+    "children": [
+      "rich-text#title-page-faq",
+      "side-menu-content-page#faq",
+      "flex-layout.row#content-container-faq"
+    ],
+    "props": {
+      "blockClass": "custom-page__main-container"
+    }
+  },
+
+  "rich-text#title-page-faq": {
+    "title": "Título da Página",
+    "props": {
+      "blockClass": "custom-page__title",
+      "text": "# Atendimento"
+    }
+  },
+
+  "side-menu-content-page#faq": {
+    "props": {
+      "pageContext": "Atendimento",
+      "active": "Dúvidas Frequentes"
+    }
+  },
+
+  "flex-layout.row#content-container-faq": {
+    "title": "Container de Conteúdo",
+    "children": [
+      "rich-text#custom-title-container-faq",
+      "rich-text#custom-data-container-faq"
+    ],
+    "props": {
+      "blockClass": "custom-page__content-container"
+    }
+  },
+
+  "rich-text#custom-title-container-faq": {
+    "title": "Título do Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--title",
+      "text": "## Dúvidas Frequentes"
+    }
+  },
+
+  "rich-text#custom-data-container-faq": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "custom-page__content-container--data",
+      "text": "O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. O usuário abaixo será atribuído como administrador da nova empresa. Ele será notificado por e-mail quando a empresa for criada e aprovada. Usuários adicionais poderão ser atribuídos à empresa por este administrador após aprovação do cadastro. "
+    }
+  }
+}

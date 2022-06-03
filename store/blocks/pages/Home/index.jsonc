@@ -1,0 +1,31 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#main-carousel__container",
+      "flex-layout.row#vertical-grid-banners",
+      "flex-layout.row#institucional-banners",
+      "flex-layout.row#departaments-grid",
+      "flex-layout.row#about-us",
+      "flex-layout.row#footer-grid-banners-container",
+      "flex-layout.row#clients-comments",
+      "flex-layout.row#reseller-buettner"
+    ]
+  },
+
+  "flex-layout.row#reseller-buettner": {
+    "title": "Sessão de Revendedor",
+    "children": ["link#reseller-buettner"],
+    "props": {
+      "blockClass": "reseller-buettner__container"
+    }
+  },
+
+  "link#reseller-buettner": {
+    "title": "Botão de Reseller - Footer",
+    "props": {
+      "blockClass": "reseller-buettner__container-link",
+      "label": "Quero revender Buettner",
+      "href": "/"
+    }
+  }
+}

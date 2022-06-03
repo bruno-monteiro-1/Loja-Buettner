@@ -1,0 +1,12 @@
+:global(.vtex-account) :global(.vtex-my-account-1-x-boxContainerBody),
+:global(.vtex-account) :global(.styleguide__box) {
+  padding: 40px 32px;
+}
+
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
+  display: none;
+}
+
+:global(.vtex-my-account-1-x-boxContainerBody) :global(.vtex-button__label) {
+  font: 1rem/1.375rem 'Open Sans Bold', sans-serif;
+}

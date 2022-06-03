@@ -1,0 +1,53 @@
+{
+  "flex-layout.row#institucional-banners": {
+    "title": "Sessão de Banners Institucionais",
+    "children": [
+      "rich-text#institucional-banners-content",
+      "flex-layout.row#institucional-banners-wrapper"
+    ],
+    "props": {
+      "blockClass": "institucional-banners__container"
+    }
+  },
+
+  "rich-text#institucional-banners-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "institucional-banners__content",
+      "text": "Estamos presentes desde o início do processo produtivo até a entrega, porque além de entregar a máxima qualidade, queremos te oferecer as melhores experiências."
+    }
+  },
+
+  "flex-layout.row#institucional-banners-wrapper": {
+    "title": "Banners",
+    "children": [
+      "image#institucional-banner-1",
+      "image#institucional-banner-2"
+    ],
+    "props": {
+      "blockClass": "institucional-banners__wrapper"
+    }
+  },
+
+  "image#institucional-banner-1": {
+    "title": "Banner - 1",
+    "props": {
+      "blockClass": "institucional-banners__image",
+      "src": "",
+      "alt": "Banner Institucional",
+      "title": "Banner Institucional",
+      "link": {}
+    }
+  },
+
+  "image#institucional-banner-2": {
+    "title": "Banner - 2",
+    "props": {
+      "blockClass": "institucional-banners__image",
+      "src": "",
+      "alt": "Banner Institucional",
+      "title": "Banner Institucional",
+      "link": {}
+    }
+  }
+}

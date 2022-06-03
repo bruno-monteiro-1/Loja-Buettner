@@ -1,0 +1,30 @@
+.overlay {
+  background: #000;
+}
+
+.drawerHeader--side-menu__header {
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+
+.drawerHeader--side-menu__header,
+.drawerHeader--side-menu__header
+  :global(.vtex-flex-layout-0-x-flexRow--side-menu__header) {
+  width: 100%;
+}
+
+:global(.vtex-store-drawer-0-x-closeIcon) {
+  display: none;
+}
+
+.closeIconButton {
+  padding-left: 8px;
+}
+
+.closeIconButton::after {
+  content: url('assets/icons/Close.svg');
+  height: 24px;
+  display: block;
+}

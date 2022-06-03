@@ -1,0 +1,82 @@
+{
+  "flex-layout.row#vertical-grid-banners": {
+    "title": "Sessão de Banners Verticais",
+    "children": [
+      "flex-layout.row#left-vertical-grid-banners",
+      "flex-layout.row#right-vertical-grid-banners"
+    ],
+    "props": {
+      "blockClass": "vertical-banners__container"
+    }
+  },
+
+  "flex-layout.row#left-vertical-grid-banners": {
+    "title": "Coluna da Esquerda",
+    "children": [
+      "rich-text#vertical-grid-banners-title",
+      "rich-text#vertical-grid-banners-content",
+      "link#vertical-grid-banners-button"
+    ],
+    "props": {
+      "blockClass": "vertical-banners__container-left"
+    }
+  },
+
+  "rich-text#vertical-grid-banners-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": "vertical-banners__container-title",
+      "text": "## Somos movidos pela emoção"
+    }
+  },
+
+  "rich-text#vertical-grid-banners-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": "vertical-banners__container-content",
+      "text": "Movidos pela emoção de estarmos presentes nos lares através das gerações. Vimos o mundo mudar e mudamos com ele, levando conosco uma **história de tradição** de **qualidade ímpar** em nossos produtos."
+    }
+  },
+
+  "link#vertical-grid-banners-button": {
+    "title": "Botão",
+    "props": {
+      "blockClass": "vertical-banners__container-button",
+      "label": "QUERO REVENDER BUETTNER",
+      "href": "/"
+    }
+  },
+
+  "flex-layout.row#right-vertical-grid-banners": {
+    "title": "Coluna da Direita",
+    "children": [
+      "image#vertical-grid-banner-1",
+      "image#vertical-grid-banner-2"
+    ],
+    "props": {
+      "blockClass": "vertical-banners__container-right"
+    }
+  },
+
+  "image#vertical-grid-banner-1": {
+    "title": "Banner - 1",
+    "props": {
+      "blockClass": "vertical-banners__container-banner",
+      "src": "https://bouton.vteximg.com.br/arquivos/placeholder-vertical-banner.png",
+      "alt": "Banner Vertical",
+      "title": "Banner Vertical",
+      "link": {}
+    }
+  },
+
+  "image#vertical-grid-banner-2": {
+    "title": "Banner - 2",
+    "props": {
+      "blockClass": "vertical-banners__container-banner",
+      "src": "https://bouton.vteximg.com.br/arquivos/placeholder-vertical-banner.png",
+      "alt": "Banner Vertical",
+      "title": "Banner Vertical",
+      "link": {}
+    }
+  }
+}

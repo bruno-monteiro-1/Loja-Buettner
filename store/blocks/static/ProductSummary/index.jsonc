@@ -1,0 +1,232 @@
+{
+  "product-summary.shelf": {
+    "title": "Card do Produto",
+    "props": {
+      "blockClass": "product-card__container"
+    },
+    "children": [
+      "add-to-list-btn#product-card",
+      "product-summary-image",
+      "flex-layout.row#informations-product-card",
+      "challenge-block#warning-product-card"
+    ]
+  },
+
+  "add-to-list-btn#product-card": {
+    "props": {
+      "blockClass": "wishlist-button__container"
+    }
+  },
+
+  "product-summary-image": {
+    "title": "Imagem",
+    "props": {
+      "blockClass": "image__category-card",
+      "mainImageLabel": {
+        "label": "vitrine"
+      }
+    }
+  },
+
+  "flex-layout.row#informations-product-card": {
+    "title": "Detalhes",
+    "children": ["condition-layout.product#product-not-available"],
+    "props": {
+      "blockClass": "conditional-container__product-card"
+    }
+  },
+
+  "condition-layout.product#product-not-available": {
+    "title": "Condição da Disponibilidade do Produto",
+    "props": {
+      "blockClass": "conditional-container__card-details",
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#informations-product-card-is-available",
+      "Else": "flex-layout.row#informations-product-card-is-not-available"
+    }
+  },
+
+  "flex-layout.row#informations-product-card-is-available": {
+    "title": "Produto Disponível",
+    "children": [
+      "flex-layout.col#left-column-details",
+      "flex-layout.col#right-column-details"
+    ],
+    "props": {
+      "blockClass": ["container-card__details", "product-details"]
+    }
+  },
+
+  "flex-layout.row#informations-product-card-is-not-available": {
+    "title": "Produto Indisponível",
+    "children": ["flex-layout.col#left-column-details"],
+    "props": {
+      "blockClass": ["product-not-available__container"]
+    }
+  },
+
+  "flex-layout.col#left-column-details": {
+    "title": "Nomes e Informativos",
+    "children": ["product-summary-name", "product-flags"],
+    "props": {
+      "blockClass": "container-card_names"
+    }
+  },
+
+  "flex-layout.col#right-column-details": {
+    "children": ["challenge-block#price-product-card"]
+  },
+
+  "challenge-block#price-product-card": {
+    "blocks": ["challenge-content#price-product-card"],
+    "props": {
+      "blockClass": "container--price"
+    }
+  },
+
+  "challenge-content#price-product-card": {
+    "children": ["check-permission#price-product-card"]
+  },
+
+  "check-permission#price-product-card": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "vtex.storefront-permissions-ui:allowed-content#price-product-card",
+      "vtex.storefront-permissions-ui:disallowed-content#price-product-card"
+    ]
+  },
+
+  "vtex.storefront-permissions-ui:allowed-content#price-product-card": {
+    "children": ["product-summary-price#category-page-card"]
+  },
+
+  "product-summary-price#category-page-card": {
+    "title": "Preço"
+  },
+
+  "vtex.storefront-permissions-ui:disallowed-content#price-product-card": {
+    "children": []
+  },
+
+  "challenge-block#warning-product-card": {
+    "blocks": [
+      "challenge-fallback#description",
+      "challenge-content#organization-description"
+    ]
+  },
+
+  "challenge-content#organization-description": {
+    "children": ["check-permission#message-product-card"]
+  },
+
+  "check-permission#message-product-card": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "vtex.storefront-permissions-ui:allowed-content#message-product-card",
+      "vtex.storefront-permissions-ui:disallowed-content#message-product-card"
+    ]
+  },
+
+  "vtex.storefront-permissions-ui:allowed-content#message-product-card": {
+    "children": ["condition-layout.product#product-not-available-container"],
+    "props": {
+      "blockClass": "conditional-container__product"
+    }
+  },
+
+  "condition-layout.product#product-not-available-container": {
+    "title": "Produto em Estoque",
+    "props": {
+      "blockClass": "conditional-container__product-not-available",
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Else": "flex-layout.row#product-not-available"
+    }
+  },
+
+  "flex-layout.row#product-not-available": {
+    "children": ["rich-text#product-not-available"],
+    "props": {
+      "blockClass": "product-not-available__container"
+    }
+  },
+
+  "rich-text#product-not-available": {
+    "title": "Mensagem",
+    "props": {
+      "blockClass": "product-not-available__message",
+      "text": "PRODUTO **INDISPONÍVEL**"
+    }
+  },
+
+  "vtex.storefront-permissions-ui:disallowed-content#message-product-card": {
+    "children": ["rich-text#warning-organization-description"]
+  },
+
+  "rich-text#warning-organization-description": {
+    "props": {
+      "blockClass": "warning_massage",
+      "text": "PARA COMPRAR [**SOLICITE UMA ORGANIZAÇÃO**](/)",
+      "textAlignment": "CENTER"
+    }
+  },
+
+  "challenge-fallback#description": {
+    "title": "Mensagem de Alerta",
+    "children": [
+      "responsive-layout.desktop#warning-product-message",
+      "responsive-layout.mobile#warning-product-message"
+    ]
+  },
+
+  "responsive-layout.desktop#warning-product-message": {
+    "children": ["rich-text#warning-product-card"]
+  },
+
+  "responsive-layout.mobile#warning-product-message": {
+    "children": ["rich-text#warning-product-card-mobile"]
+  },
+
+  "rich-text#warning-product-card": {
+    "title": "Usuário Anônimo",
+    "props": {
+      "blockClass": "warning_massage",
+      "text": "PARA COMPRAR **ENTRE** OU **CADASTRE-SE**"
+    }
+  },
+
+  "rich-text#warning-product-card-mobile": {
+    "title": "Usuário Anônimo - Mobile",
+    "props": {
+      "blockClass": "warning_massage",
+      "text": "**ENTRE** OU **CADASTRE-SE**"
+    }
+  }
+}

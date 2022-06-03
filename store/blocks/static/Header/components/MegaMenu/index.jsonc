@@ -1,0 +1,34 @@
+{
+  "mega-menu": {
+    "title": "Mega Menu",
+    "props": {
+      "blockClass": "mega-menu",
+      "title": "",
+      "defaultDepartmentActive": "cama"
+    }
+  },
+  "mega-menu#mobile": {
+    "title": "Mega Menu",
+    "props": {
+      "blockClass": "mega-menu",
+      "title": ""
+    }
+  },
+
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+
+  "flex-layout.col#mega-menu-go-back-btn": {
+    "title": "Botão de Retorno",
+    "children": ["mega-menu-go-back-btn"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "paddingLeft": 4
+    }
+  }
+}

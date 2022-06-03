@@ -1,0 +1,8 @@
+:global(.vtex-flex-layout-0-x-flexRowContent--informative__text--footer)
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  max-width: 295px;
+}
+
+.flexColChild--payments:last-child {
+  margin-bottom: 64px;
+}

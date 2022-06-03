@@ -1,0 +1,16 @@
+{
+  "footer-layout.mobile": {
+    "title": "Rodapé Mobile",
+    "props": {
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "flex-layout.row#newsletter-container",
+      "flex-layout.row#informative__text--footer",
+      "flex-layout.row#payments__row--footer",
+      "flex-layout.row#stamps__row--footer",
+      "flex-layout.row#logos__brand--footer",
+      "flex-layout.row#address__row--footer"
+    ]
+  }
+}

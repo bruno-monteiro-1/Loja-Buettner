@@ -1,0 +1,30 @@
+.paragraph--vertical-banners__container-content,
+.headingLevel2--vertical-banners__container-title {
+  color: #363c4a;
+}
+
+.headingLevel2--vertical-banners__container-title {
+  margin: 0;
+  font: 2.5rem/3.438rem 'Open Sans ExtraBold', sans-serif;
+}
+
+.paragraph--vertical-banners__container-content {
+  font: 1.25rem/2rem 'Open Sans Regular', sans-serif;
+  margin: 0;
+}
+
+.strong--vertical-banners__container-content {
+  font-family: 'Open Sans SemiBold', sans-serif;
+  font-weight: unset;
+}
+
+@media (max-width: 780px) {
+  .headingLevel2--vertical-banners__container-title {
+    font-size: 2rem;
+    line-height: 42px;
+  }
+
+  .paragraph--vertical-banners__container-content {
+    font-size: 1.125rem;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "flex-layout.row#payments__row--footer": {
+    "title": "Formas de Pagamento",
+    "props": {
+      "blockClass": "payments__row--footer"
+    },
+
+    "children": [
+      "image#payments__children--1",
+      "image#payments__children--2",
+      "image#payments__children--3",
+      "image#payments__children--4",
+      "image#payments__children--5",
+      "image#payments__children--6",
+      "image#payments__children--7",
+      "image#payments__children--8",
+      "image#payments__children--9",
+      "image#payments__children--10",
+      "image#payments__children--11",
+      "image#payments__children--12"
+    ]
+  }
+}

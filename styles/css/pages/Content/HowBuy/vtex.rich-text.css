@@ -1,0 +1,55 @@
+.wrapper--how-buy-content__data {
+  max-width: 808px;
+  text-align: center;
+}
+
+.headingLevel2--how-buy-content__final-message,
+.headingLevel3--how-buy-content__title,
+.headingLevel3--help-section__title,
+.paragraph--how-buy-content__data {
+  color: #363c4a;
+}
+
+.headingLevel3--how-buy-content__title,
+.headingLevel3--help-section__title {
+  font: 1.375rem/1.875rem 'Open Sans Bold', sans-serif;
+  text-align: center;
+}
+
+.headingLevel3--how-buy-content__title {
+  margin: 40px 0 24px;
+}
+
+.paragraph--how-buy-content__data {
+  margin: 0;
+  font: 1rem/1.75rem 'Open Sans Regular', sans-serif;
+}
+
+.headingLevel2--how-buy-content__final-message {
+  margin: 0;
+  font: 2.5rem/3.438rem 'Open Sans ExtraBold', sans-serif;
+  text-align: center;
+}
+
+.link--how-buy-content__data,
+.strong--how-buy-content__data {
+  color: inherit;
+  font-family: 'Open Sans SemiBold', sans-serif;
+}
+
+.strong--how-buy-content__data {
+  font-weight: unset;
+}
+
+.wrapper--help-section__title {
+  width: 100%;
+}
+
+.headingLevel3--help-section__title {
+  margin: 0;
+}
+
+.paragraph--help-section__content {
+  margin: 8px 0 0;
+  font: 1rem/1.75rem 'Open Sans Regular', sans-serif;
+}

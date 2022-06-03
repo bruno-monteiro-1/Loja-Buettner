@@ -1,0 +1,108 @@
+{
+  "flex-layout.row#newsletter-container": {
+    "title": "Newsletter",
+    "children": [
+      "flex-layout.row#newsletter-form",
+      "flex-layout.row#social-field-newsletter"
+    ],
+    "props": {
+      "blockClass": "newsletter-container"
+    }
+  },
+
+  "flex-layout.row#newsletter-form": {
+    "title": "Formulario",
+    "children": ["rich-text#newsletter-title", "newsletter-form"],
+    "props": {
+      "blockClass": "newsletter-container__form"
+    }
+  },
+
+  "flex-layout.row#social-field-newsletter": {
+    "title": "Redes Sociais",
+    "children": [
+      "image#social-field-instagram",
+      "image#social-field-pinterest",
+      "image#social-field-facebook"
+    ],
+    "props": {
+      "blockClass": "newsletter-container__social-field"
+    }
+  },
+
+  "image#social-field-instagram": {
+    "title": "Rede Social - 1",
+    "props": {
+      "blockClass": "newsletter-container__social-field-image",
+      "src": "https://bouton.vteximg.com.br/arquivos/logo-instagram.png",
+      "title": "Imagem de Rede Social - Instagram",
+      "alt": "Imagem de Rede Social - Instagram",
+      "link": {}
+    }
+  },
+  "image#social-field-pinterest": {
+    "title": "Rede Social - 2",
+    "props": {
+      "blockClass": "newsletter-container__social-field-image",
+      "src": "https://bouton.vteximg.com.br/arquivos/logo-pinterest.png",
+      "title": "Imagem de Rede Social - Pinterest",
+      "alt": "Imagem de Rede Social - Pinterest",
+      "link": {}
+    }
+  },
+  "image#social-field-facebook": {
+    "title": "Rede Social - 3",
+    "props": {
+      "blockClass": "newsletter-container__social-field-image",
+      "src": "https://bouton.vteximg.com.br/arquivos/logo-facebook.png",
+      "title": "Imagem de Rede Social - Facebook",
+      "alt": "Imagem de Rede Social - Facebook",
+      "link": {}
+    }
+  },
+
+  "rich-text#newsletter-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": ["newsletter-container", "title"],
+      "text": "### Receba **Novidades** e **Ofertas**"
+    }
+  },
+
+  "newsletter-form": {
+    "title": "Formulários",
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ],
+    "props": {
+      "blockClass": ["newsletter-container", "form"]
+    }
+  },
+
+  "newsletter-input-name": {
+    "title": "Campo de Nome",
+    "props": {
+      "blockClass": ["newsletter-container", "input"],
+      "placeholderText": "Nome ou razão social"
+    }
+  },
+
+  "newsletter-input-email": {
+    "title": "Campo de Email",
+    "props": {
+      "blockClass": ["newsletter-container", "input"],
+      "placeholderText": "E-mail",
+      "errorMessage": "O e-mail inserido é inválido"
+    }
+  },
+
+  "newsletter-submit": {
+    "title": "Botão de Envio",
+    "props": {
+      "blockClass": ["newsletter-container", "button"],
+      "submitButtonLabel": "Enviar"
+    }
+  }
+}

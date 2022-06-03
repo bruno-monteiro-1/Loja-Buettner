@@ -1,0 +1,31 @@
+.flexRow--footer-grid-banners__container {
+  margin-top: 60px;
+}
+
+.flexRow--footer-grid-banners__container
+  :global(.vtex-store-components-3-x-container) {
+  max-width: 100%;
+  padding: 0;
+}
+
+.flexRowContent--footer-grid-banners__container .stretchChildrenWidth {
+  width: 100% !important;
+}
+
+@media (max-width: 1025px) {
+  .flexRowContent--footer-grid-banners__container
+    .stretchChildrenWidth:first-child {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .flexRow--footer-grid-banners__container {
+    margin-top: 120px;
+  }
+
+  .flexRowContent--footer-grid-banners__container
+    .stretchChildrenWidth:last-child {
+    display: none;
+  }
+}

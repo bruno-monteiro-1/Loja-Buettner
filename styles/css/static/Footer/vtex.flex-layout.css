@@ -1,0 +1,155 @@
+.flexRow--logo-buettner__brand--footer {
+  padding: 30px;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--payments__row--footer {
+  flex-wrap: wrap;
+  display: inline-flex;
+  width: 100%;
+  border: 1px solid #d4d8e1;
+  border-left: none;
+  border-right: none;
+}
+
+.flexRow--stamps__row--footer {
+  display: inline-flex;
+  width: 100%;
+}
+
+.flexRowContent--logos__brand--footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+}
+
+.flexRowContent--logo-buettner__brand--footer
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth)
+  :global(.vtex-store-components-3-x-imageElementLink) {
+  display: flex;
+}
+
+.flexRowContent--logos__brand--footer
+  :global(.vtex-flex-layout-0-x-stretchChildrenWidth) {
+  width: fit-content !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--principal__row--footer)
+  :global(.vtex-store-components-3-x-container),
+:global(.vtex-flex-layout-0-x-flexRow--logos__brand--footer)
+  :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+}
+
+.flexRowContent--payments__row--footer .stretchChildrenWidth,
+.flexRowContent--stamps__row--footer .stretchChildrenWidth,
+.flexRowContent--footer-mobile .stretchChildrenWidth {
+  display: flex;
+  width: fit-content !important;
+}
+
+.flexRowContent--payments__row--footer .stretchChildrenWidth {
+  margin-right: 8px;
+}
+
+.flexRowContent--stamps__row--footer .stretchChildrenWidth {
+  margin-right: 12px;
+}
+
+.flexRowContent--stamps__row--footer .stretchChildrenWidth:last-child {
+  margin: 0;
+}
+
+.flexRowContent--payments__row--footer {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flexRowContent--stamps__row--footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .flexRow--logos__brand--footer {
+    padding: 22px 34px;
+    background-color: #f2f2f2;
+  }
+
+  .flexRowContent--informative__text--footer {
+    padding: 32px 0 40px 48px;
+    justify-content: space-around;
+  }
+
+  .flexRowContent--footer-mobile .stretchChildrenWidth {
+    margin: 0 auto;
+  }
+
+  :global(.vtex-store-footer-2-x-footerLayout)
+    :global(.vtex-flex-layout-0-x-flexRow)
+    :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+  }
+
+  .flexRowContent--payments__row--footer {
+    padding: 24px 32px;
+  }
+
+  .flexRow--stamps__row--footer {
+    padding: 20px 54px;
+  }
+
+  .flexColChild--attendence {
+    height: min-content !important;
+  }
+
+  .paragraph--address__text--footer {
+    margin: 16px 0;
+  }
+}
+
+@media (max-width: 640px) {
+  .flexCol--attendence {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1026px) {
+  .flexRow--payments__row--footer {
+    border: none;
+  }
+
+  .flexRow--logos__brand--footer {
+    background-color: #f2f2f2;
+    padding: 0 32px;
+  }
+
+  .flexRow--logo-buettner__brand--footer {
+    padding: 32px 0;
+  }
+
+  .flexRowContent--payments__row--footer,
+  .flexRowContent--stamps__row--footer {
+    display: flex;
+    width: 100%;
+    padding: 0px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .flexRow--principal__row--footer {
+    padding: 64px 32px;
+  }
+
+  .flexRowContent--informative__text--footer {
+    align-items: start;
+  }
+}
